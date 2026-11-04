@@ -1,0 +1,4 @@
+row_id,source_path,image_path,mesh_cleanup
+excavator,excavator/mesh.glb,excavator/photo.jpg,
+paper_cutter,paper_cutter/mesh.glb,paper_cutter/photo.jpg,
+cabinet,cabinet/mesh.glb,cabinet/photo.jpg,

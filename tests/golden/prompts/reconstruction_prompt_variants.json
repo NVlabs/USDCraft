@@ -1,0 +1,18 @@
+{
+  "provider_tools:image_observation=0": {
+    "prompt": "6b37a33a6c3f007867d5aa231ab495d5275917cb96650abd9ae8faa54313a618",
+    "tools": "5a5e8a8eeac5debe2cb976404881f22ceae15b9e7a3cd927c968599a15023fb3"
+  },
+  "provider_tools:image_observation=1": {
+    "prompt": "4078cee7974f0e72541619f0592eb8aab550d72c850b1aea39bf31f36fb3ae68",
+    "tools": "5a5e8a8eeac5debe2cb976404881f22ceae15b9e7a3cd927c968599a15023fb3"
+  },
+  "shell:image_observation=0": {
+    "prompt": "63b673dedecba6a7cc81058cfe23d02cd4bdce4a8951a0f0332e9ebfa35d82d7",
+    "tools": "5a5e8a8eeac5debe2cb976404881f22ceae15b9e7a3cd927c968599a15023fb3"
+  },
+  "shell:image_observation=1": {
+    "prompt": "f7b347e3a99c6e5813d0af2e187d11395d1f868cc7a700bb97be2d6e434c5894",
+    "tools": "5a5e8a8eeac5debe2cb976404881f22ceae15b9e7a3cd927c968599a15023fb3"
+  }
+}

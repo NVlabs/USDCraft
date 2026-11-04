@@ -1,0 +1,74 @@
+USDCraft
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This product is licensed under the Apache License, Version 2.0 (see `LICENSE`) and includes the
+third-party material listed below. `THIRD_PARTY_NOTICES.md` is the complete inventory of
+incorporated material and dependencies, with each component's version, license, copyright and the
+location of its license text.
+
+This product includes source code adapted from `cq_gears`
+([github.com/meadiode/cq_gears](https://github.com/meadiode/cq_gears)),
+copyright 2021 meadiode@github.
+
+The vendored implementation lives under `sdk/_extensions/cadquery/gears.py` and is
+distributed under the Apache License, Version 2.0, consistent with the
+upstream license.
+
+Portions of the SDK authoring references are adapted from the CadQuery documentation
+([github.com/CadQuery/cadquery](https://github.com/CadQuery/cadquery)), Copyright CadQuery
+Development Team, distributed under the Apache License, Version 2.0: the documentation pages
+`sdk/_docs/cadquery/36_cadquery_primer.md`, `37_cadquery_workplane.md`, `38_cadquery_sketch.md`,
+`39_cadquery_assembly.md`, `39b_cadquery_free_function.md` and `39c_cadquery_api_ref.md`, and the
+33 example pages under `sdk/_examples/cadquery/` whose titles match the upstream examples page
+(`simple_rectangular_plate`, `plate_with_hole`, `an_extruded_prismatic_solid`,
+`building_profiles_using_lines_and_arcs`, `moving_the_current_working_point`, `using_point_lists`,
+`polygons`, `polylines`, `defining_an_edge_with_a_spline`, `mirroring_symmetric_geometry`,
+`mirroring_3d_objects`, `mirroring_from_faces`, `creating_workplanes_on_faces`,
+`locating_a_workplane_on_a_vertex`, `offset_workplanes`, `copying_workplanes`, `rotated_workplanes`,
+`using_construction_geometry`, `shelling_to_create_thin_features`, `making_lofts`,
+`extruding_until_a_given_face`, `making_counter_bored_and_counter_sunk_holes`,
+`offsetting_wires_in_2d`, `rounding_corners_with_fillet`, `tagging_objects`,
+`a_parametric_bearing_pillow_block`, `splitting_an_object`, `the_classic_occ_bottle`,
+`a_parametric_enclosure`, `lego_brick`, `braille_example`, `panel_with_various_connector_holes` and
+`cycloidal_gear`). The remaining pages and examples are original to Articraft or USDCraft.
+
+Portions of this product are derived from Articraft
+([github.com/mattzh72/articraft](https://github.com/mattzh72/articraft), now maintained at
+[github.com/articraftresearch/Articraft](https://github.com/articraftresearch/Articraft)),
+copyright the Articraft contributors, licensed under the Apache License, Version 2.0. The derived
+portions are the articulated-object SDK (`sdk/`, including `sdk/_core/`, `sdk/_extensions/`, the
+authoring references in `sdk/_docs/` and the examples in `sdk/_examples/`) and its tests in
+`tests/sdk/`; the Viewer (`viewer/api/`, `viewer/web/`); and parts of the compile-feedback and
+record-storage code (`usdcraft/compile/`, `storage/`, `scaffold.py`). NVIDIA modified these files,
+including adding USD export and validation, new geometry helpers, documentation and examples, and
+restructuring the Viewer and storage for USDCraft's Generation and Reconstruction records. The
+Generation and Reconstruction pipelines, the provider harness and the prompt and policy text are
+original to USDCraft. The `cq_gears` and CadQuery material above reached USDCraft through Articraft.
+Each source file derived from Articraft states so in its license header, except
+`scaffold.py`: it is the template copied into every generated `model.py`, so it intentionally
+carries no license header.
+
+The Viewer bundles two fonts through the `@fontsource/sora` and `@fontsource/ibm-plex-mono`
+packages: Sora (copyright 2019 The Sora Project Authors) and IBM Plex Mono (copyright 2017 IBM
+Corp.). Both are distributed under the SIL Open Font License, Version 1.1; the license texts are in
+`viewer/web/public/licenses/OFL-Sora.txt` and `viewer/web/public/licenses/OFL-IBM-Plex-Mono.txt`.
+
+Example assets and images. The following files are NVIDIA material, created by the USDCraft
+authors and released under this product's Apache License, Version 2.0: the reference photos
+`assets/generation/forklift.jpg` and `assets/generation/microwave.jpg` (photographed by the
+authors); the reconstruction inputs under `assets/reconstruction/cabinet/`,
+`assets/reconstruction/excavator/` and `assets/reconstruction/paper_cutter/` (each `mesh.glb` was
+generated with USDCraft and each `photo.jpg` was photographed by the authors); the Viewer screenshot
+`docs/images/viewer.jpg`; and the project mark `viewer/web/public/usdcraft-mark.png`. No
+third-party photographs, meshes or artwork are included.
+
+The SDK bundles the DejaVu Sans fonts (`sdk/_core/assets/fonts/`): Bitstream Vera fonts copyright
+2003 Bitstream, Inc., with DejaVu changes in the public domain and Arev glyphs copyright 2006
+Tavmjong Bah. The full license text is in `sdk/_core/assets/fonts/LICENSE.txt`.
+
+The Viewer components `viewer/web/src/components/ui/resizable.tsx` and
+`viewer/web/src/components/ui/scroll-area.tsx` include code adapted from shadcn/ui
+([github.com/shadcn-ui/ui](https://github.com/shadcn-ui/ui)),
+Copyright (c) 2023 shadcn, distributed under the MIT License. These components
+contain USDCraft-specific layout and styling changes. The full copyright and
+permission notice is in `viewer/web/public/licenses/LICENSE-shadcn-ui.txt`.

@@ -1,0 +1,5 @@
+row_id,prompt,image_path,label
+desk_lamp,"A desk lamp with a weighted round base, a two-segment articulated arm with friction hinges, and a rotating conical shade.",,Desk lamp
+kitchen_cabinet,"A kitchen base cabinet with two hinged doors on the bottom and one full-extension drawer on top, with bar handles.",,Kitchen cabinet
+forklift,,forklift.jpg,Forklift
+microwave,,microwave.jpg,Microwave

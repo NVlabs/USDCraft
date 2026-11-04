@@ -1,0 +1,210 @@
+/*
+ * SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ *
+ * This file is derived from Articraft (https://github.com/mattzh72/articraft),
+ * copyright the Articraft contributors, licensed under the Apache License, Version 2.0,
+ * and has been modified by NVIDIA.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Sora", "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SF Mono", "Menlo", monospace;
+  --color-background: #e9eee3;
+  --color-foreground: #182014;
+}
+
+/* USDCraft Viewer theme: a single light theme. Components use only these tokens. The font
+   families are self-hosted (@fontsource packages imported in main.tsx), so the Viewer makes no
+   third-party font requests. */
+:root {
+  color-scheme: light;
+
+  --surface-0: #ffffff;
+  --surface-1: #f3f6ef;
+  --surface-2: #e9eee3;
+  --surface-3: #dfe7d7;
+  --surface-glass: rgba(255, 255, 255, 0.88);
+
+  --text-primary: #182014;
+  --text-secondary: #4a5843;
+  --text-tertiary: #73806c;
+  --text-quaternary: #9aa493;
+
+  --border-default: #d4ddcd;
+  --border-subtle: #e5eadf;
+  --border-strong: #afbea7;
+
+  --accent: #5f9500;
+  --accent-strong: #456f00;
+  --accent-soft: rgba(95, 149, 0, 0.11);
+  --accent-hover: rgba(95, 149, 0, 0.17);
+  --coordinate: #5f9500;
+  --coordinate-soft: rgba(95, 149, 0, 0.1);
+
+  --success: #548700;
+  --success-soft: rgba(84, 135, 0, 0.09);
+  --warning: #b3741a;
+  --warning-soft: rgba(179, 116, 26, 0.09);
+  --destructive: #c8362a;
+  --destructive-soft: rgba(200, 54, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  border-color: var(--border-default);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background: var(--surface-2);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+select {
+  background-color: var(--surface-1);
+  color: var(--text-secondary);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text-primary);
+}
+
+/* Thin scrollbar for all panels */
+.custom-scrollbar,
+.code-panel-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar,
+.code-panel-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track,
+.code-panel-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb,
+.code-panel-scroll::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover,
+.code-panel-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+/* Property row pattern - key/value rows */
+.prop-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 5px 0;
+  gap: 12px;
+}
+
+.prop-label {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.prop-value {
+  font-size: 11px;
+  color: var(--text-primary);
+  text-align: right;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Stacked variant: label on top, value full-width below.
+   Use for long mono IDs (Record ID, Run ID, Origin, …). */
+.prop-row-stacked {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 5px 0;
+  gap: 2px;
+}
+
+.prop-row-stacked .prop-label {
+  text-align: left;
+}
+
+.prop-row-stacked .prop-value {
+  text-align: left;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* The compact uppercase wordmark feels like a maker's stamp rather than a dashboard label. */
+.wordmark {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+
+.wordmark-kicker {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.panel-kicker {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.stage-grid {
+  background-image:
+    linear-gradient(rgba(118, 185, 0, 0.024) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(118, 185, 0, 0.024) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

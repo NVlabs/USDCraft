@@ -1,0 +1,134 @@
+[project]
+name = "usdcraft"
+version = "1.0.0"
+description = "Agent-authored generation and reconstruction of simulator-ready articulated 3D assets (URDF, OpenUSD)."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "USDCraft contributors" }]
+keywords = ["3d-assets", "articulation", "openusd", "urdf", "reconstruction", "simulation"]
+dependencies = [
+    "aiohttp>=3.12",
+    "cadquery>=2.5",
+    "fastapi>=0.111.0",
+    "manifold3d>=3.3.2",
+    "networkx>=3.6.1",
+    "numpy>=2.4.1",
+    "pillow>=10",
+    "playwright>=1.49",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "python-fcl>=0.7.0.8",
+    "rich>=13.7.0",
+    "rtree>=1.4.1",
+    "scipy>=1.17.1",
+    "trimesh>=4.11.3",
+    "usd-core>=26.5,<27",
+    "uvicorn>=0.30.0",
+]
+
+[project.urls]
+Repository = "https://github.com/NVlabs/USDCraft"
+
+[project.scripts]
+usdcraft = "usdcraft.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["usdcraft", "sdk", "storage", "viewer"]
+artifacts = ["/viewer/web/dist/**"]
+
+[tool.hatch.build.targets.sdist]
+artifacts = ["/viewer/web/dist/**"]
+# Explicit allow-list: the sdist carries exactly the repository's published content, so local
+# working files that git ignores through other means never reach a source distribution.
+only-include = [
+    "/.env.example",
+    "/.python-version",
+    "/AGENTS.md",
+    "/CHANGELOG.md",
+    "/CONTRIBUTING.md",
+    "/LICENSE",
+    "/NOTICE",
+    "/README.md",
+    "/THIRD_PARTY_NOTICES.md",
+    "/assets",
+    "/data/README.md",
+    "/docs/architecture.md",
+    "/docs/images",
+    "/justfile",
+    "/scaffold.py",
+    "/sdk",
+    "/storage",
+    "/tests",
+    "/third_party",
+    "/tools",
+    "/usdcraft",
+    "/uv.lock",
+    "/viewer",
+]
+exclude = [
+    "/.pytest_cache",
+    "/.ruff_cache",
+    "/.venv",
+    "/data/cache",
+    "/data/local",
+    "/data/records",
+    "/dist",
+    "/tests/test_recon_trace_tool.py",
+    "/viewer/web/node_modules",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18",
+    "pytest>=8.4.0",
+    "ruff>=0.11.0",
+]
+
+[tool.uv]
+required-version = ">=0.9.17"
+exclude-newer = "7 days"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["--import-mode=importlib"]
+markers = [
+    "slow: takes about a second or more (heavy geometry, real compiles, real subprocesses); deselect with -m 'not slow'",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"scaffold.py" = ["F821"]
+"sdk/_core/mesh.py" = ["F401"]
+"sdk/_core/testing.py" = ["F401"]
+# This module intentionally re-exports shared names consumed by the split testing mixins.
+"sdk/_core/_testing/common.py" = ["F401"]
+"sdk/_core/_mesh/__init__.py" = ["F401", "F403", "F405", "F821"]
+"sdk/_core/_mesh/*.py" = ["F401", "F403", "F405", "F821"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.12"
+files = ["usdcraft", "storage", "viewer/api", "sdk"]
+check_untyped_defs = true
+warn_unused_ignores = true
+
+# Third-party packages that ship neither inline types nor a PEP 561 stub package.
+[[tool.mypy.overrides]]
+module = ["pxr", "pxr.*", "OCP", "OCP.*", "scipy", "scipy.*", "fcl", "fcl.*", "manifold3d"]
+ignore_missing_imports = true
