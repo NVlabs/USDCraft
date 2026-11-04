@@ -1,0 +1,935 @@
+{
+  "bodies": [
+    "/Asset/Links/centrifuge_body",
+    "/Asset/Links/rotor",
+    "/Asset/Links/safety_lid",
+    "/Asset/Links/lid_latch",
+    "/Asset/Links/front_left_foot",
+    "/Asset/Links/front_right_foot",
+    "/Asset/Links/rear_left_foot",
+    "/Asset/Links/rear_right_foot"
+  ],
+  "joints": [
+    {
+      "name": "body_to_rotor",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/rotor",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        0.26499998569488525,
+        0.03999999910593033
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "body_to_safety_lid",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/safety_lid",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        0.3400000035762787,
+        -0.20499999821186066
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        -1.2246468525851679e-16
+      ],
+      "lower": 0.0,
+      "upper": 1.3962634015954636
+    },
+    {
+      "name": "body_to_front_left_foot",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/front_left_foot",
+      "type": "fixed",
+      "pivot": [
+        -0.2199999988079071,
+        0.03999999910593033,
+        0.2199999988079071
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "body_to_front_right_foot",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/front_right_foot",
+      "type": "fixed",
+      "pivot": [
+        0.2199999988079071,
+        0.03999999910593033,
+        0.2199999988079071
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "body_to_rear_left_foot",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/rear_left_foot",
+      "type": "fixed",
+      "pivot": [
+        -0.2199999988079071,
+        0.03999999910593033,
+        -0.2199999988079071
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "body_to_rear_right_foot",
+      "parent": "/Asset/Links/centrifuge_body",
+      "child": "/Asset/Links/rear_right_foot",
+      "type": "fixed",
+      "pivot": [
+        0.2199999988079071,
+        0.03999999910593033,
+        -0.2199999988079071
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "lid_to_latch",
+      "parent": "/Asset/Links/safety_lid",
+      "child": "/Asset/Links/lid_latch",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        0.35200000010430815,
+        0.2550000083446503
+      ],
+      "axis": [
+        -1.0,
+        0.0,
+        -1.2246468525851679e-16
+      ],
+      "lower": 0.0,
+      "upper": 0.7504915783575618
+    }
+  ],
+  "moving_joint_count": 3,
+  "floating": [
+    {
+      "body": "/Asset/Links/centrifuge_body",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.6500000011622906
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/centrifuge_body/Visuals/main_enclosure/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/left_top_shoulder/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/right_top_shoulder/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_top_shoulder/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/rear_top_shoulder/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/chamber_wall/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/chamber_floor/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/chamber_trim/Geom/mesh": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/hinge_pin/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/hinge_support__0_095/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/hinge_support__0_095_2/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/latch_receiver_jaw__0_0425/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/latch_receiver_jaw__0_0425_2/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/control_console/Geom": {
+      "name": "control_panel_polymer",
+      "color": [
+        0.47699978947639465,
+        0.5070785284042358,
+        0.4623613655567169
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/display_bezel/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/blue_lcd/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/panel_legend__0_095/Geom": {
+      "name": "quiet_panel_marking",
+      "color": [
+        0.7484140992164612,
+        0.7874122858047485,
+        0.7484140992164612
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/panel_legend__0_025/Geom": {
+      "name": "quiet_panel_marking",
+      "color": [
+        0.7484140992164612,
+        0.7874122858047485,
+        0.7484140992164612
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_178_0/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_178_1/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_178_2/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_178_3/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_108_0/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_108_1/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_108_2/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/parameter_button__0_108_3/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/keypad_button_0/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/keypad_button_1/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/keypad_button_2/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/keypad_button_3/Geom": {
+      "name": "interface_blue",
+      "color": [
+        0.001934984466060996,
+        0.04696420207619667,
+        0.2529500722885132
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/start_button/Geom": {
+      "name": "start_green",
+      "color": [
+        0.0023219813592731953,
+        0.2632734179496765,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/stop_button/Geom": {
+      "name": "stop_red",
+      "color": [
+        0.47699978947639465,
+        0.001934984466060996,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_identity_band/Geom": {
+      "name": "control_panel_polymer",
+      "color": [
+        0.47699978947639465,
+        0.5070785284042358,
+        0.4623613655567169
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_red_accent/Geom": {
+      "name": "stop_red",
+      "color": [
+        0.47699978947639465,
+        0.001934984466060996,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_vent_slot_0/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_vent_slot_1/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_vent_slot_2/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/centrifuge_body/Visuals/front_vent_slot_3/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_shaft/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_carrier_disk/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_hub/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_0/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_0/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_0/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_1/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_1/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_1/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_2/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_2/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_2/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_3/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_3/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_3/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_4/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_4/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_4/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/rotor_spoke_5/Geom": {
+      "name": "rotor_anodized_black",
+      "color": [
+        0.0027089782524853945,
+        0.0033353136386722326,
+        0.003758403705433011
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_ring_5/Geom/mesh": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/rotor/Visuals/cup_floor_5/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/safety_lid/Visuals/lid_outer_ring/Geom/mesh": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6559306979179382,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/safety_lid/Visuals/safety_window/Geom": {
+      "name": "smoked_safety_window",
+      "color": [
+        0.295699805021286,
+        0.36724647879600525,
+        0.4064483046531677
+      ],
+      "opacity": 0.14000000059604645,
+      "roughness": 0.07000000029802322,
+      "ior": 1.4900000095367432
+    },
+    "/Asset/Links/safety_lid/Visuals/hinge_barrel/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/safety_lid/Visuals/hinge_web__0_050/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/safety_lid/Visuals/hinge_web__0_050_2/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/lid_latch/Visuals/latch_paddle/Geom": {
+      "name": "graphite_polymer",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/lid_latch/Visuals/latch_tongue/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/lid_latch/Visuals/latch_neck/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.21404114365577698,
+        0.24286681413650513,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_left_foot/Visuals/rubber_pad/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_right_foot/Visuals/rubber_pad/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/rear_left_foot/Visuals/rubber_pad/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/rear_right_foot/Visuals/rubber_pad/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    }
+  }
+}

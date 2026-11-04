@@ -1,0 +1,1353 @@
+{
+ "bodies": [
+  "/Chair/Base",
+  "/Chair/SeatAssembly",
+  "/Chair/Caster0",
+  "/Chair/Wheels0",
+  "/Chair/Caster1",
+  "/Chair/Wheels1",
+  "/Chair/Caster2",
+  "/Chair/Wheels2",
+  "/Chair/Caster3",
+  "/Chair/Wheels3",
+  "/Chair/Caster4",
+  "/Chair/Wheels4"
+ ],
+ "joints": [
+  {
+   "name": "SeatSwivel",
+   "parent": "/Chair/Base",
+   "child": "/Chair/SeatAssembly",
+   "type": "revolute",
+   "pivot": [
+    0.0,
+    0.3449999988079071,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "CasterYaw0",
+   "parent": "/Chair/Base",
+   "child": "/Chair/Caster0",
+   "type": "revolute",
+   "pivot": [
+    1.9900509700147753e-17,
+    0.10000000149011612,
+    0.32499998807907104
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "CasterYaw1",
+   "parent": "/Chair/Base",
+   "child": "/Chair/Caster1",
+   "type": "revolute",
+   "pivot": [
+    0.3090933561325073,
+    0.10000000149011612,
+    0.10043052583932877
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "CasterYaw2",
+   "parent": "/Chair/Base",
+   "child": "/Chair/Caster2",
+   "type": "revolute",
+   "pivot": [
+    0.19103020429611206,
+    0.10000000149011612,
+    -0.2629305124282837
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "CasterYaw3",
+   "parent": "/Chair/Base",
+   "child": "/Chair/Caster3",
+   "type": "revolute",
+   "pivot": [
+    -0.19103020429611206,
+    0.10000000149011612,
+    -0.2629305124282837
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "CasterYaw4",
+   "parent": "/Chair/Base",
+   "child": "/Chair/Caster4",
+   "type": "revolute",
+   "pivot": [
+    -0.3090933561325073,
+    0.10000000149011612,
+    0.10043052583932877
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "WheelRoll0",
+   "parent": "/Chair/Caster0",
+   "child": "/Chair/Wheels0",
+   "type": "revolute",
+   "pivot": [
+    1.9900509700147753e-17,
+    0.03700000047683716,
+    0.33899998664855957
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "WheelRoll1",
+   "parent": "/Chair/Caster1",
+   "child": "/Chair/Wheels1",
+   "type": "revolute",
+   "pivot": [
+    0.3090933561325073,
+    0.03700000047683716,
+    0.11443052440881729
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "WheelRoll2",
+   "parent": "/Chair/Caster2",
+   "child": "/Chair/Wheels2",
+   "type": "revolute",
+   "pivot": [
+    0.19103020429611206,
+    0.03700000047683716,
+    -0.24893052875995636
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "WheelRoll3",
+   "parent": "/Chair/Caster3",
+   "child": "/Chair/Wheels3",
+   "type": "revolute",
+   "pivot": [
+    -0.19103020429611206,
+    0.03700000047683716,
+    -0.24893052875995636
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "WheelRoll4",
+   "parent": "/Chair/Caster4",
+   "child": "/Chair/Wheels4",
+   "type": "revolute",
+   "pivot": [
+    -0.3090933561325073,
+    0.03700000047683716,
+    0.11443052440881729
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  }
+ ],
+ "moving_joint_count": 11,
+ "floating": [],
+ "appearance": {
+  "/Chair/Base/Hub": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/GasSleeve": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/Spoke0": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/Spoke1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/Spoke2": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/Spoke3": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Base/Spoke4": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Piston": {
+   "name": "chrome",
+   "color": [
+    0.550000011920929,
+    0.5699999928474426,
+    0.5799999833106995
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2199999988079071,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Cushion": {
+   "name": "fabric",
+   "color": [
+    0.5899999737739563,
+    0.6600000262260437,
+    0.6899999976158142
+   ],
+   "opacity": 1.0,
+   "roughness": 0.9300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/SeatPan": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmFootL": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmPostL": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmPadL": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmFootR": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmPostR": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/ArmPadR": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackMountn1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_0": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_2": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_3": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_4": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_5": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_6": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_7": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_8": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_9": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_10": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_11": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_12": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_13": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_14": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_15": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_16": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_17": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_18": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_19": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_20": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_21": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_22": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Railn1_23": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackMount1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_0": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_2": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_3": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_4": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_5": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_6": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_7": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_8": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_9": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_10": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_11": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_12": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_13": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_14": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_15": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_16": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_17": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_18": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_19": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_20": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_21": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_22": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rail1_23": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rim0": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Rim1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/WovenBack": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider0": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider1": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider2": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider3": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider4": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider5": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider6": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider7": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider8": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider9": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider10": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/BackCollider11": {
+   "name": "mesh",
+   "color": [
+    0.3700000047683716,
+    0.4000000059604645,
+    0.4000000059604645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/Lever": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/SeatAssembly/LeverGrip": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Caster0/Stem": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels0/Tiren1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels0/Tire1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels0/Axle": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Caster1/Stem": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels1/Tiren1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels1/Tire1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels1/Axle": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Caster2/Stem": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels2/Tiren1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels2/Tire1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels2/Axle": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Caster3/Stem": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels3/Tiren1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels3/Tire1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels3/Axle": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Caster4/Stem": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels4/Tiren1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels4/Tire1": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  },
+  "/Chair/Wheels4/Axle": {
+   "name": "black",
+   "color": [
+    0.02500000037252903,
+    0.028999999165534973,
+    0.029999999329447746
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4300000071525574,
+   "ior": 1.45
+  }
+ }
+}

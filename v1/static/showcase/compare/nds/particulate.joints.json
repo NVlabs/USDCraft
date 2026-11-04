@@ -1,0 +1,30 @@
+{
+ "bodies": [
+  "/link_0",
+  "/link_1"
+ ],
+ "joints": [
+  {
+   "name": "joint_1_0",
+   "parent": "/link_1",
+   "child": "/link_0",
+   "type": "revolute",
+   "pivot": [
+    -5.7e-05,
+    0.024094,
+    0.051944
+   ],
+   "axis": [
+    -0.9999993970981337,
+    -1.400001955941299e-05,
+    -0.0010980015340168188
+   ],
+   "lower": -2.904779,
+   "upper": 0.077008
+  }
+ ],
+ "moving_joint_count": 1,
+ "floating": [],
+ "appearance": {},
+ "triangles": 20000
+}

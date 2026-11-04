@@ -1,0 +1,433 @@
+{
+ "bodies": [
+  "/Asset/Links/body",
+  "/Asset/Links/bread_lift",
+  "/Asset/Links/browning_dial"
+ ],
+ "joints": [
+  {
+   "name": "lower_bread",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/bread_lift",
+   "type": "prismatic",
+   "pivot": [
+    -0.003000000026077032,
+    0.12399999797344208,
+    0.11500000208616257
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": -0.04500000178813934,
+   "upper": 0.0
+  },
+  {
+   "name": "browning_setting",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/browning_dial",
+   "type": "revolute",
+   "pivot": [
+    -0.003000000026077032,
+    0.04800000041723251,
+    0.11299999803304672
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -1.2000000140073657,
+   "upper": 1.2000000140073657
+  }
+ ],
+ "moving_joint_count": 2,
+ "floating": [
+  {
+   "body": "/Asset/Links/body",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.24899999681860208
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/body/Visuals/housing/Geom/housing_obj": {
+   "name": "warm_ivory",
+   "color": [
+    0.5542217493057251,
+    0.5542217493057251,
+    0.3931231200695038
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3799999952316284,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/rim/Geom/rim_obj": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/well0/Geom/well0_obj": {
+   "name": "dark_interior",
+   "color": [
+    0.0027089782524853945,
+    0.003254215233027935,
+    0.0030959751456975937
+   ],
+   "opacity": 1.0,
+   "roughness": 0.550000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0__1__0_022/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0__1_0_023/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0__1_0_068/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0_1__0_022/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0_1_0_023/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_0_1_0_068/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/well1/Geom/well1_obj": {
+   "name": "dark_interior",
+   "color": [
+    0.0027089782524853945,
+    0.003254215233027935,
+    0.0030959751456975937
+   ],
+   "opacity": 1.0,
+   "roughness": 0.550000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1__1__0_022/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1__1_0_023/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1__1_0_068/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1_1__0_022/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1_1_0_023/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/guide_1_1_0_068/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/lever_track/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick0/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick1/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick2/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick3/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick4/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/tick5/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/handle/Geom/lift_handle_obj": {
+   "name": "warm_ivory",
+   "color": [
+    0.5542217493057251,
+    0.5542217493057251,
+    0.3931231200695038
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3799999952316284,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/stem/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/bread_support0/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/bread_support1/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/crossbar/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/riser/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/bread_lift/Visuals/linkage/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/browning_dial/Visuals/knurled_ring/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/browning_dial/Visuals/shaft/Geom": {
+   "name": "stainless",
+   "color": [
+    0.059253521263599396,
+    0.07323895394802094,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/browning_dial/Visuals/dial/Geom": {
+   "name": "warm_ivory",
+   "color": [
+    0.5542217493057251,
+    0.5542217493057251,
+    0.3931231200695038
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3799999952316284,
+   "ior": 1.45
+  },
+  "/Asset/Links/browning_dial/Visuals/indicator/Geom": {
+   "name": "markings",
+   "color": [
+    0.007194409146904945,
+    0.00854038167744875,
+    0.007850573398172855
+   ],
+   "opacity": 1.0,
+   "roughness": 0.699999988079071,
+   "ior": 1.45
+  }
+ }
+}

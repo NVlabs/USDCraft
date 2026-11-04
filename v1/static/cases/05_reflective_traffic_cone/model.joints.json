@@ -1,0 +1,86 @@
+{
+  "bodies": [
+    "/Asset/Links/traffic_cone"
+  ],
+  "joints": [],
+  "moving_joint_count": 0,
+  "floating": [
+    {
+      "body": "/Asset/Links/traffic_cone",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.7229999896511435
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/traffic_cone/Visuals/rounded_square_base/Geom/mesh": {
+      "name": "safety_orange_rubber_base",
+      "color": [
+        0.7105664610862732,
+        0.0035010159481316805,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/traffic_cone/Visuals/raised_base_plinth/Geom/mesh": {
+      "name": "safety_orange_rubber_base",
+      "color": [
+        0.7105664610862732,
+        0.0035010159481316805,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/traffic_cone/Visuals/lower_orange_shell/Geom/mesh": {
+      "name": "safety_orange_pvc",
+      "color": [
+        1.0,
+        0.006571403704583645,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/traffic_cone/Visuals/reflective_shell_band/Geom/mesh": {
+      "name": "silver_reflective_band",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/traffic_cone/Visuals/upper_orange_shell/Geom/mesh": {
+      "name": "safety_orange_pvc",
+      "color": [
+        1.0,
+        0.006571403704583645,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/traffic_cone/Visuals/rounded_top_lip/Geom/mesh": {
+      "name": "safety_orange_pvc",
+      "color": [
+        1.0,
+        0.006571403704583645,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    }
+  }
+}

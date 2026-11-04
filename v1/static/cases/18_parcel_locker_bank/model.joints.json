@@ -1,0 +1,1174 @@
+{
+  "bodies": [
+    "/Asset/Links/cabinet_enclosure",
+    "/Asset/Links/left_door_1",
+    "/Asset/Links/left_door_2",
+    "/Asset/Links/left_door_3",
+    "/Asset/Links/left_door_4",
+    "/Asset/Links/right_door_1",
+    "/Asset/Links/right_door_2",
+    "/Asset/Links/right_door_3",
+    "/Asset/Links/right_door_4"
+  ],
+  "joints": [
+    {
+      "name": "cabinet_to_left_door_1",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/left_door_1",
+      "type": "revolute",
+      "pivot": [
+        -0.628000020980835,
+        0.3700000047683716,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_left_door_2",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/left_door_2",
+      "type": "revolute",
+      "pivot": [
+        -0.628000020980835,
+        0.7250000238418579,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_left_door_3",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/left_door_3",
+      "type": "revolute",
+      "pivot": [
+        -0.628000020980835,
+        1.0700000524520874,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_left_door_4",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/left_door_4",
+      "type": "revolute",
+      "pivot": [
+        -0.628000020980835,
+        1.5499999523162842,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_right_door_1",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/right_door_1",
+      "type": "revolute",
+      "pivot": [
+        0.628000020980835,
+        0.33500000834465027,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_right_door_2",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/right_door_2",
+      "type": "revolute",
+      "pivot": [
+        0.628000020980835,
+        0.6449999809265137,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_right_door_3",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/right_door_3",
+      "type": "revolute",
+      "pivot": [
+        0.628000020980835,
+        1.0299999713897705,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "cabinet_to_right_door_4",
+      "parent": "/Asset/Links/cabinet_enclosure",
+      "child": "/Asset/Links/right_door_4",
+      "type": "revolute",
+      "pivot": [
+        0.628000020980835,
+        1.5549999475479126,
+        0.30399999022483826
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    }
+  ],
+  "moving_joint_count": 8,
+  "floating": [
+    {
+      "body": "/Asset/Links/cabinet_enclosure",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 2.059999997764826
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/cabinet_enclosure/Visuals/back_panel/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/left_side_wall/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/right_side_wall/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/center_spine/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/plinth/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/top_crossmember/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/left_hinge_rail/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/right_hinge_rail/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/bottom_compartment_floor/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/left_shelf_1/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/left_shelf_2/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/left_shelf_3/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/right_shelf_1/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/right_shelf_2/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/right_shelf_3/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/compartment_ceiling/Geom": {
+      "name": "galvanized_interior",
+      "color": [
+        0.17886750400066376,
+        0.2049017697572708,
+        0.21404114365577698
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_lf_pad/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_lf_stem/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_lb_pad/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_lb_stem/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_rf_pad/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_rf_stem/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_rb_pad/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/foot_rb_stem/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/canopy_cap/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/header_fascia/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/header_identity_panel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/kiosk_housing/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/kiosk_screen/Geom": {
+      "name": "active_kiosk_screen",
+      "color": [
+        0.001934984466060996,
+        0.010816383175551891,
+        0.018478473648428917
+      ],
+      "opacity": 1.0,
+      "roughness": 0.1599999964237213,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_0_0/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_0_1/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_0_2/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_1_0/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_1_1/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_1_2/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_2_0/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_2_1/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_2_2/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_3_0/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_3_1/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/keypad_3_2/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/parcel_code_scanner_slot/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/cabinet_enclosure/Visuals/kiosk_status_light/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/door_panel/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_1/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/door_panel/Geom": {
+      "name": "warm_yellow_powdercoat",
+      "color": [
+        0.6382831931114197,
+        0.1873166710138321,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4000000059604645,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_2/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/door_panel/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_3/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/door_panel/Geom": {
+      "name": "warm_yellow_powdercoat",
+      "color": [
+        0.6382831931114197,
+        0.1873166710138321,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4000000059604645,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_door_4/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/door_panel/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_1/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/door_panel/Geom": {
+      "name": "warm_yellow_powdercoat",
+      "color": [
+        0.6382831931114197,
+        0.1873166710138321,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4000000059604645,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_2/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/door_panel/Geom": {
+      "name": "courier_yellow_powdercoat",
+      "color": [
+        0.868899405002594,
+        0.34239163994789124,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.36000001430511475,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_3/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/door_panel/Geom": {
+      "name": "warm_yellow_powdercoat",
+      "color": [
+        0.6382831931114197,
+        0.1873166710138321,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4000000059604645,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/hinge_barrel/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/hinge_leaf/Geom": {
+      "name": "charcoal_frame",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/electronic_latch/Geom": {
+      "name": "latch_polymer",
+      "color": [
+        0.0027089782524853945,
+        0.0035010159481316805,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/pull_lip/Geom": {
+      "name": "brushed_latch_trim",
+      "color": [
+        0.34239163994789124,
+        0.3931231200695038,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_door_4/Visuals/latch_status_indicator/Geom": {
+      "name": "status_green",
+      "color": [
+        0.010022825561463833,
+        0.6038273572921753,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    }
+  }
+}

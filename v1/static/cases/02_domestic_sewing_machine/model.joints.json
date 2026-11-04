@@ -1,0 +1,413 @@
+{
+  "bodies": [
+    "/Asset/Links/machine_frame",
+    "/Asset/Links/needle_bar",
+    "/Asset/Links/presser_foot",
+    "/Asset/Links/handwheel",
+    "/Asset/Links/stitch_selector",
+    "/Asset/Links/thread_tension_dial"
+  ],
+  "joints": [
+    {
+      "name": "frame_to_needle_bar",
+      "parent": "/Asset/Links/machine_frame",
+      "child": "/Asset/Links/needle_bar",
+      "type": "prismatic",
+      "pivot": [
+        -0.15000000596046448,
+        0.14499999582767487,
+        0.014999999664723873
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": -0.019999999552965164,
+      "upper": 0.0
+    },
+    {
+      "name": "frame_to_presser_foot",
+      "parent": "/Asset/Links/machine_frame",
+      "child": "/Asset/Links/presser_foot",
+      "type": "prismatic",
+      "pivot": [
+        -0.15000000596046448,
+        0.1459999978542328,
+        -0.004999999888241291
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.009999999776482582
+    },
+    {
+      "name": "frame_to_handwheel",
+      "parent": "/Asset/Links/machine_frame",
+      "child": "/Asset/Links/handwheel",
+      "type": "revolute",
+      "pivot": [
+        0.2150000035762787,
+        0.24500000476837158,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "frame_to_stitch_selector",
+      "parent": "/Asset/Links/machine_frame",
+      "child": "/Asset/Links/stitch_selector",
+      "type": "revolute",
+      "pivot": [
+        0.019999999552965164,
+        0.2680000066757202,
+        0.08399999886751175
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": -2.599999963770265,
+      "upper": 2.599999963770265
+    },
+    {
+      "name": "frame_to_thread_tension_dial",
+      "parent": "/Asset/Links/machine_frame",
+      "child": "/Asset/Links/thread_tension_dial",
+      "type": "revolute",
+      "pivot": [
+        -0.17399999499320984,
+        0.1850000023841858,
+        0.08399999886751175
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": -2.7999998995257984,
+      "upper": 2.7999998995257984
+    }
+  ],
+  "moving_joint_count": 5,
+  "floating": [
+    {
+      "body": "/Asset/Links/machine_frame",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.46800000347875914
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/machine_frame/Visuals/base_plinth/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/left_deck/Geom": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/right_deck/Geom": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/right_pillar/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/top_arm/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/needle_head/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/needle_plate_left/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/needle_plate_right/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/bobbin_access_cover/Geom": {
+      "name": "smoky_bobbin_cover",
+      "color": [
+        0.295699805021286,
+        0.33034372329711914,
+        0.36724647879600525
+      ],
+      "opacity": 0.44999998807907104,
+      "roughness": 0.10000000149011612,
+      "ior": 1.4900000095367432
+    },
+    "/Asset/Links/machine_frame/Visuals/stitch_chart_panel/Geom/mesh": {
+      "name": "violet_stitch_panel",
+      "color": [
+        0.04696420207619667,
+        0.03310476616024971,
+        0.34239163994789124
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/reverse_feed_paddle/Geom": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/spool_pin/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/spool_pin_base/Geom": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/bobbin_winder_spindle/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/bobbin_winder_tire/Geom": {
+      "name": "charcoal_markings",
+      "color": [
+        0.005981059744954109,
+        0.007194409146904945,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/machine_frame/Visuals/upper_thread_guide/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/needle_bar/Visuals/needle_bar_shaft/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/needle_bar/Visuals/needle_clamp/Geom": {
+      "name": "dark_needle_steel",
+      "color": [
+        0.03310476616024971,
+        0.03968190774321556,
+        0.04696420207619667
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23000000417232513,
+      "ior": 1.45
+    },
+    "/Asset/Links/needle_bar/Visuals/sewing_needle/Geom": {
+      "name": "dark_needle_steel",
+      "color": [
+        0.03310476616024971,
+        0.03968190774321556,
+        0.04696420207619667
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23000000417232513,
+      "ior": 1.45
+    },
+    "/Asset/Links/presser_foot/Visuals/presser_shank/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/presser_foot/Visuals/presser_ankle/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/presser_foot/Visuals/presser_toe_left/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/presser_foot/Visuals/presser_toe_right/Geom": {
+      "name": "polished_working_steel",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/handwheel/Visuals/handwheel_disc/Geom": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/handwheel/Visuals/handwheel_hub/Geom": {
+      "name": "charcoal_markings",
+      "color": [
+        0.005981059744954109,
+        0.007194409146904945,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/stitch_selector/Visuals/selector_knob/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/thread_tension_dial/Visuals/tension_knob/Geom/mesh": {
+      "name": "warm_white_molded_shell",
+      "color": [
+        0.8275708556175232,
+        0.8073459267616272,
+        0.7105664610862732
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    }
+  }
+}

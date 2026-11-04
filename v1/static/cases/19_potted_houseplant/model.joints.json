@@ -1,0 +1,221 @@
+{
+  "bodies": [
+    "/Asset/Links/planter_shell",
+    "/Asset/Links/soil_rootball",
+    "/Asset/Links/central_conifer",
+    "/Asset/Links/companion_flowers"
+  ],
+  "joints": [
+    {
+      "name": "planter_to_packed_rootball",
+      "parent": "/Asset/Links/planter_shell",
+      "child": "/Asset/Links/soil_rootball",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.2759999930858612,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "rootball_to_central_conifer",
+      "parent": "/Asset/Links/soil_rootball",
+      "child": "/Asset/Links/central_conifer",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.28850000018626454,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "rootball_to_companion_flowers",
+      "parent": "/Asset/Links/soil_rootball",
+      "child": "/Asset/Links/companion_flowers",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.28850000018626454,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    }
+  ],
+  "moving_joint_count": 0,
+  "floating": [
+    {
+      "body": "/Asset/Links/planter_shell",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.0571870098114013
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/planter_shell/Visuals/tapered_hollow_planter_shell/Geom/mesh": {
+      "name": "sun_warmed_terracotta",
+      "color": [
+        0.47699978947639465,
+        0.03310476616024971,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.7799999713897705,
+      "ior": 1.45
+    },
+    "/Asset/Links/planter_shell/Visuals/rolled_rim/Geom/mesh": {
+      "name": "rim_highlight_terracotta",
+      "color": [
+        0.7484140992164612,
+        0.06838485598564148,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6600000262260437,
+      "ior": 1.45
+    },
+    "/Asset/Links/planter_shell/Visuals/raised_body_band/Geom/mesh": {
+      "name": "rim_highlight_terracotta",
+      "color": [
+        0.7484140992164612,
+        0.06838485598564148,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6600000262260437,
+      "ior": 1.45
+    },
+    "/Asset/Links/soil_rootball/Visuals/visible_soil_surface/Geom": {
+      "name": "dark_moist_soil",
+      "color": [
+        0.010816383175551891,
+        0.003935939632356167,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9800000190734863,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_conifer/Visuals/woody_structure/Geom/mesh": {
+      "name": "young_bark",
+      "color": [
+        0.027211781591176987,
+        0.009264310821890831,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9200000166893005,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_conifer/Visuals/deep_green_needles/Geom/mesh": {
+      "name": "deep_conifer_green",
+      "color": [
+        0.001934984466060996,
+        0.043233636766672134,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8500000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_conifer/Visuals/fresh_green_tips/Geom/mesh": {
+      "name": "fresh_tip_green",
+      "color": [
+        0.0300741046667099,
+        0.23302200436592102,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.7799999713897705,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/flower_stems/Geom/mesh": {
+      "name": "flower_leaf_green",
+      "color": [
+        0.006571403704583645,
+        0.09462962299585342,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/flower_leaves/Geom/mesh": {
+      "name": "flower_leaf_green",
+      "color": [
+        0.006571403704583645,
+        0.09462962299585342,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/pink_petals/Geom/mesh": {
+      "name": "cosmos_pink",
+      "color": [
+        0.8900054097175598,
+        0.04696420207619667,
+        0.31854677200317383
+      ],
+      "opacity": 1.0,
+      "roughness": 0.550000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/lavender_petals/Geom/mesh": {
+      "name": "cosmos_lavender",
+      "color": [
+        0.4919050335884094,
+        0.15487249195575714,
+        0.868899405002594
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5600000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/gold_flower_centers/Geom/mesh": {
+      "name": "flower_pollen_gold",
+      "color": [
+        0.9551045894622803,
+        0.3931231200695038,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/companion_flowers/Visuals/closed_buds/Geom/mesh": {
+      "name": "closed_bud_magenta",
+      "color": [
+        0.27383843064308167,
+        0.0027089782524853945,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6600000262260437,
+      "ior": 1.45
+    }
+  }
+}

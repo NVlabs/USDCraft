@@ -1,0 +1,3556 @@
+{
+  "bodies": [
+    "/Asset/Links/rack",
+    "/Asset/Links/box_r1_b1_s1",
+    "/Asset/Links/box_r1_b1_s2",
+    "/Asset/Links/box_r1_b1_s3",
+    "/Asset/Links/box_r1_b1_s4",
+    "/Asset/Links/can_r1_b2_s1",
+    "/Asset/Links/can_r1_b2_s2",
+    "/Asset/Links/can_r1_b2_s3",
+    "/Asset/Links/can_r1_b2_s4",
+    "/Asset/Links/bottle_r1_b3_s1",
+    "/Asset/Links/bottle_r1_b3_s2",
+    "/Asset/Links/bottle_r1_b3_s3",
+    "/Asset/Links/bottle_r1_b3_s4",
+    "/Asset/Links/carton_r2_b1_s1",
+    "/Asset/Links/carton_r2_b1_s2",
+    "/Asset/Links/carton_r2_b1_s3",
+    "/Asset/Links/carton_r2_b1_s4",
+    "/Asset/Links/box_r2_b2_s1",
+    "/Asset/Links/box_r2_b2_s2",
+    "/Asset/Links/box_r2_b2_s3",
+    "/Asset/Links/box_r2_b2_s4",
+    "/Asset/Links/can_r2_b3_s1",
+    "/Asset/Links/can_r2_b3_s2",
+    "/Asset/Links/can_r2_b3_s3",
+    "/Asset/Links/can_r2_b3_s4",
+    "/Asset/Links/bag_r3_b1_s1",
+    "/Asset/Links/bag_r3_b1_s2",
+    "/Asset/Links/bag_r3_b1_s3",
+    "/Asset/Links/bag_r3_b1_s4",
+    "/Asset/Links/bottle_r3_b2_s1",
+    "/Asset/Links/bottle_r3_b2_s2",
+    "/Asset/Links/bottle_r3_b2_s3",
+    "/Asset/Links/bottle_r3_b2_s4",
+    "/Asset/Links/carton_r3_b3_s1",
+    "/Asset/Links/carton_r3_b3_s2",
+    "/Asset/Links/carton_r3_b3_s3",
+    "/Asset/Links/carton_r3_b3_s4",
+    "/Asset/Links/box_r4_b1_s1",
+    "/Asset/Links/box_r4_b1_s2",
+    "/Asset/Links/box_r4_b1_s3",
+    "/Asset/Links/box_r4_b1_s4",
+    "/Asset/Links/jar_r4_b2_s1",
+    "/Asset/Links/jar_r4_b2_s2",
+    "/Asset/Links/jar_r4_b2_s3",
+    "/Asset/Links/jar_r4_b2_s4",
+    "/Asset/Links/bag_r4_b3_s1",
+    "/Asset/Links/bag_r4_b3_s2",
+    "/Asset/Links/bag_r4_b3_s3",
+    "/Asset/Links/bag_r4_b3_s4",
+    "/Asset/Links/carton_r5_b1_s1",
+    "/Asset/Links/carton_r5_b1_s2",
+    "/Asset/Links/carton_r5_b1_s3",
+    "/Asset/Links/carton_r5_b1_s4",
+    "/Asset/Links/box_r5_b2_s1",
+    "/Asset/Links/box_r5_b2_s2",
+    "/Asset/Links/box_r5_b2_s3",
+    "/Asset/Links/box_r5_b2_s4",
+    "/Asset/Links/bottle_r5_b3_s1",
+    "/Asset/Links/bottle_r5_b3_s2",
+    "/Asset/Links/bottle_r5_b3_s3",
+    "/Asset/Links/bottle_r5_b3_s4",
+    "/Asset/Links/box_r6_b1_s1",
+    "/Asset/Links/box_r6_b1_s2",
+    "/Asset/Links/box_r6_b1_s3",
+    "/Asset/Links/box_r6_b1_s4",
+    "/Asset/Links/carton_r6_b2_s1",
+    "/Asset/Links/carton_r6_b2_s2",
+    "/Asset/Links/carton_r6_b2_s3",
+    "/Asset/Links/carton_r6_b2_s4",
+    "/Asset/Links/bag_r6_b3_s1",
+    "/Asset/Links/bag_r6_b3_s2",
+    "/Asset/Links/bag_r6_b3_s3",
+    "/Asset/Links/bag_r6_b3_s4"
+  ],
+  "joints": [],
+  "moving_joint_count": 0,
+  "floating": [
+    {
+      "body": "/Asset/Links/bag_r6_b3_s4",
+      "pivot": [
+        1.2,
+        1.6749999999999998,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r6_b3_s3",
+      "pivot": [
+        1.0,
+        1.6749999999999998,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r6_b3_s2",
+      "pivot": [
+        0.8,
+        1.6749999999999998,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r6_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        1.6749999999999998,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/carton_r6_b2_s4",
+      "pivot": [
+        0.3,
+        1.6749999999999998,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r6_b2_s3",
+      "pivot": [
+        0.1,
+        1.6749999999999998,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r6_b2_s2",
+      "pivot": [
+        -0.1,
+        1.6749999999999998,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r6_b2_s1",
+      "pivot": [
+        -0.3,
+        1.6749999999999998,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/box_r6_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        1.6749999999999998,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r6_b1_s3",
+      "pivot": [
+        -0.8,
+        1.6749999999999998,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r6_b1_s2",
+      "pivot": [
+        -1.0,
+        1.6749999999999998,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r6_b1_s1",
+      "pivot": [
+        -1.2,
+        1.6749999999999998,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/bottle_r5_b3_s4",
+      "pivot": [
+        1.2,
+        1.365,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r5_b3_s3",
+      "pivot": [
+        1.0,
+        1.365,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r5_b3_s2",
+      "pivot": [
+        0.8,
+        1.365,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r5_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        1.365,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/box_r5_b2_s4",
+      "pivot": [
+        0.3,
+        1.365,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r5_b2_s3",
+      "pivot": [
+        0.1,
+        1.365,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r5_b2_s2",
+      "pivot": [
+        -0.1,
+        1.365,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r5_b2_s1",
+      "pivot": [
+        -0.3,
+        1.365,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/carton_r5_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        1.365,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r5_b1_s3",
+      "pivot": [
+        -0.8,
+        1.365,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r5_b1_s2",
+      "pivot": [
+        -1.0,
+        1.365,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r5_b1_s1",
+      "pivot": [
+        -1.2,
+        1.365,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/bag_r4_b3_s4",
+      "pivot": [
+        1.2,
+        1.055,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r4_b3_s3",
+      "pivot": [
+        1.0,
+        1.055,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r4_b3_s2",
+      "pivot": [
+        0.8,
+        1.055,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r4_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        1.055,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/jar_r4_b2_s4",
+      "pivot": [
+        0.3,
+        1.055,
+        0.15000000000000002
+      ],
+      "extent": 0.16000000193715103
+    },
+    {
+      "body": "/Asset/Links/jar_r4_b2_s3",
+      "pivot": [
+        0.1,
+        1.055,
+        0.15000000000000002
+      ],
+      "extent": 0.16000000193715103
+    },
+    {
+      "body": "/Asset/Links/jar_r4_b2_s2",
+      "pivot": [
+        -0.1,
+        1.055,
+        0.15000000000000002
+      ],
+      "extent": 0.16000000193715103
+    },
+    {
+      "body": "/Asset/Links/jar_r4_b2_s1",
+      "pivot": [
+        -0.3,
+        1.055,
+        0.15000000000000002
+      ],
+      "extent": 0.16000000193715103
+    },
+    {
+      "body": "/Asset/Links/box_r4_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        1.055,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r4_b1_s3",
+      "pivot": [
+        -0.8,
+        1.055,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r4_b1_s2",
+      "pivot": [
+        -1.0,
+        1.055,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r4_b1_s1",
+      "pivot": [
+        -1.2,
+        1.055,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/carton_r3_b3_s4",
+      "pivot": [
+        1.2,
+        0.745,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r3_b3_s3",
+      "pivot": [
+        1.0,
+        0.745,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r3_b3_s2",
+      "pivot": [
+        0.8,
+        0.745,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/carton_r3_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        0.745,
+        0.155
+      ],
+      "extent": 0.21000000417232512
+    },
+    {
+      "body": "/Asset/Links/bottle_r3_b2_s4",
+      "pivot": [
+        0.3,
+        0.745,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r3_b2_s3",
+      "pivot": [
+        0.1,
+        0.745,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r3_b2_s2",
+      "pivot": [
+        -0.1,
+        0.745,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r3_b2_s1",
+      "pivot": [
+        -0.3,
+        0.745,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bag_r3_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        0.745,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r3_b1_s3",
+      "pivot": [
+        -0.8,
+        0.745,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r3_b1_s2",
+      "pivot": [
+        -1.0,
+        0.745,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/bag_r3_b1_s1",
+      "pivot": [
+        -1.2,
+        0.745,
+        0.1575
+      ],
+      "extent": 0.23000000162050127
+    },
+    {
+      "body": "/Asset/Links/can_r2_b3_s4",
+      "pivot": [
+        1.2,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r2_b3_s3",
+      "pivot": [
+        1.0,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r2_b3_s2",
+      "pivot": [
+        0.8,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r2_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/box_r2_b2_s4",
+      "pivot": [
+        0.3,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r2_b2_s3",
+      "pivot": [
+        0.1,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r2_b2_s2",
+      "pivot": [
+        -0.1,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r2_b2_s1",
+      "pivot": [
+        -0.3,
+        0.435,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/carton_r2_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        0.435,
+        0.155
+      ],
+      "extent": 0.21000000417232523
+    },
+    {
+      "body": "/Asset/Links/carton_r2_b1_s3",
+      "pivot": [
+        -0.8,
+        0.435,
+        0.155
+      ],
+      "extent": 0.21000000417232523
+    },
+    {
+      "body": "/Asset/Links/carton_r2_b1_s2",
+      "pivot": [
+        -1.0,
+        0.435,
+        0.155
+      ],
+      "extent": 0.21000000417232523
+    },
+    {
+      "body": "/Asset/Links/carton_r2_b1_s1",
+      "pivot": [
+        -1.2,
+        0.435,
+        0.155
+      ],
+      "extent": 0.21000000417232523
+    },
+    {
+      "body": "/Asset/Links/bottle_r1_b3_s4",
+      "pivot": [
+        1.2,
+        0.125,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r1_b3_s3",
+      "pivot": [
+        1.0,
+        0.125,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r1_b3_s2",
+      "pivot": [
+        0.8,
+        0.125,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/bottle_r1_b3_s1",
+      "pivot": [
+        0.6000000000000001,
+        0.125,
+        0.155
+      ],
+      "extent": 0.2350000021681189
+    },
+    {
+      "body": "/Asset/Links/can_r1_b2_s4",
+      "pivot": [
+        0.3,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r1_b2_s3",
+      "pivot": [
+        0.1,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r1_b2_s2",
+      "pivot": [
+        -0.1,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/can_r1_b2_s1",
+      "pivot": [
+        -0.3,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.13500000536441803
+    },
+    {
+      "body": "/Asset/Links/box_r1_b1_s4",
+      "pivot": [
+        -0.6000000000000001,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r1_b1_s3",
+      "pivot": [
+        -0.8,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r1_b1_s2",
+      "pivot": [
+        -1.0,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/box_r1_b1_s1",
+      "pivot": [
+        -1.2,
+        0.125,
+        0.1525
+      ],
+      "extent": 0.2199999988079071
+    },
+    {
+      "body": "/Asset/Links/rack",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 2.790000003576279
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/rack/Visuals/front_post_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_0_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_post_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_0_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_post_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_1_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_post_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_1_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_post_2/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_2_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_post_2/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_2_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_post_3/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_3_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_post_3/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/foot_3_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_0/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_0/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_0/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_1/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_1/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_1/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_2/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_2/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_2/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_2/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_2/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_3/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_3/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_3/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_3/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_3/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_4/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_4/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_4/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_4/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_4/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_board_5/Geom": {
+      "name": "warm_laminated_wood",
+      "color": [
+        0.34239163994789124,
+        0.1473190039396286,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/front_support_5/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/rear_support_5/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/shelf_lip_5/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/price_strip_5/Geom": {
+      "name": "cream_price_strip",
+      "color": [
+        0.7874122858047485,
+        0.6738595366477966,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/top_front_rail/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/rack/Visuals/top_rear_rail/Geom": {
+      "name": "black_powder_coat",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s1/Visuals/box_r1_b1_s1_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s1/Visuals/box_r1_b1_s1_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s2/Visuals/box_r1_b1_s2_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s2/Visuals/box_r1_b1_s2_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s3/Visuals/box_r1_b1_s3_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s3/Visuals/box_r1_b1_s3_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s4/Visuals/box_r1_b1_s4_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r1_b1_s4/Visuals/box_r1_b1_s4_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s1/Visuals/can_r1_b2_s1_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s1/Visuals/can_r1_b2_s1_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s1/Visuals/can_r1_b2_s1_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s2/Visuals/can_r1_b2_s2_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s2/Visuals/can_r1_b2_s2_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s2/Visuals/can_r1_b2_s2_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s3/Visuals/can_r1_b2_s3_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s3/Visuals/can_r1_b2_s3_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s3/Visuals/can_r1_b2_s3_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s4/Visuals/can_r1_b2_s4_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s4/Visuals/can_r1_b2_s4_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r1_b2_s4/Visuals/can_r1_b2_s4_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s1/Visuals/bottle_r1_b3_s1_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s1/Visuals/bottle_r1_b3_s1_neck/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s1/Visuals/bottle_r1_b3_s1_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s1/Visuals/bottle_r1_b3_s1_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s2/Visuals/bottle_r1_b3_s2_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s2/Visuals/bottle_r1_b3_s2_neck/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s2/Visuals/bottle_r1_b3_s2_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s2/Visuals/bottle_r1_b3_s2_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s3/Visuals/bottle_r1_b3_s3_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s3/Visuals/bottle_r1_b3_s3_neck/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s3/Visuals/bottle_r1_b3_s3_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s3/Visuals/bottle_r1_b3_s3_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s4/Visuals/bottle_r1_b3_s4_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s4/Visuals/bottle_r1_b3_s4_neck/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s4/Visuals/bottle_r1_b3_s4_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r1_b3_s4/Visuals/bottle_r1_b3_s4_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s1/Visuals/carton_r2_b1_s1_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s1/Visuals/carton_r2_b1_s1_folded_top/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s1/Visuals/carton_r2_b1_s1_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s2/Visuals/carton_r2_b1_s2_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s2/Visuals/carton_r2_b1_s2_folded_top/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s2/Visuals/carton_r2_b1_s2_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s3/Visuals/carton_r2_b1_s3_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s3/Visuals/carton_r2_b1_s3_folded_top/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s3/Visuals/carton_r2_b1_s3_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s4/Visuals/carton_r2_b1_s4_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s4/Visuals/carton_r2_b1_s4_folded_top/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r2_b1_s4/Visuals/carton_r2_b1_s4_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s1/Visuals/box_r2_b2_s1_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s1/Visuals/box_r2_b2_s1_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s2/Visuals/box_r2_b2_s2_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s2/Visuals/box_r2_b2_s2_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s3/Visuals/box_r2_b2_s3_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s3/Visuals/box_r2_b2_s3_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s4/Visuals/box_r2_b2_s4_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r2_b2_s4/Visuals/box_r2_b2_s4_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s1/Visuals/can_r2_b3_s1_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s1/Visuals/can_r2_b3_s1_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s1/Visuals/can_r2_b3_s1_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s2/Visuals/can_r2_b3_s2_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s2/Visuals/can_r2_b3_s2_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s2/Visuals/can_r2_b3_s2_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s3/Visuals/can_r2_b3_s3_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s3/Visuals/can_r2_b3_s3_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s3/Visuals/can_r2_b3_s3_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s4/Visuals/can_r2_b3_s4_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s4/Visuals/can_r2_b3_s4_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/can_r2_b3_s4/Visuals/can_r2_b3_s4_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s1/Visuals/bag_r3_b1_s1_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s1/Visuals/bag_r3_b1_s1_sealed_top/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s1/Visuals/bag_r3_b1_s1_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s2/Visuals/bag_r3_b1_s2_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s2/Visuals/bag_r3_b1_s2_sealed_top/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s2/Visuals/bag_r3_b1_s2_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s3/Visuals/bag_r3_b1_s3_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s3/Visuals/bag_r3_b1_s3_sealed_top/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s3/Visuals/bag_r3_b1_s3_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s4/Visuals/bag_r3_b1_s4_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s4/Visuals/bag_r3_b1_s4_sealed_top/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r3_b1_s4/Visuals/bag_r3_b1_s4_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s1/Visuals/bottle_r3_b2_s1_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s1/Visuals/bottle_r3_b2_s1_neck/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s1/Visuals/bottle_r3_b2_s1_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s1/Visuals/bottle_r3_b2_s1_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s2/Visuals/bottle_r3_b2_s2_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s2/Visuals/bottle_r3_b2_s2_neck/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s2/Visuals/bottle_r3_b2_s2_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s2/Visuals/bottle_r3_b2_s2_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s3/Visuals/bottle_r3_b2_s3_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s3/Visuals/bottle_r3_b2_s3_neck/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s3/Visuals/bottle_r3_b2_s3_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s3/Visuals/bottle_r3_b2_s3_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s4/Visuals/bottle_r3_b2_s4_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s4/Visuals/bottle_r3_b2_s4_neck/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s4/Visuals/bottle_r3_b2_s4_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r3_b2_s4/Visuals/bottle_r3_b2_s4_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s1/Visuals/carton_r3_b3_s1_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s1/Visuals/carton_r3_b3_s1_folded_top/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s1/Visuals/carton_r3_b3_s1_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s2/Visuals/carton_r3_b3_s2_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s2/Visuals/carton_r3_b3_s2_folded_top/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s2/Visuals/carton_r3_b3_s2_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s3/Visuals/carton_r3_b3_s3_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s3/Visuals/carton_r3_b3_s3_folded_top/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s3/Visuals/carton_r3_b3_s3_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s4/Visuals/carton_r3_b3_s4_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s4/Visuals/carton_r3_b3_s4_folded_top/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r3_b3_s4/Visuals/carton_r3_b3_s4_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s1/Visuals/box_r4_b1_s1_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s1/Visuals/box_r4_b1_s1_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s2/Visuals/box_r4_b1_s2_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s2/Visuals/box_r4_b1_s2_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s3/Visuals/box_r4_b1_s3_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s3/Visuals/box_r4_b1_s3_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s4/Visuals/box_r4_b1_s4_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r4_b1_s4/Visuals/box_r4_b1_s4_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s1/Visuals/jar_r4_b2_s1_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s1/Visuals/jar_r4_b2_s1_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s1/Visuals/jar_r4_b2_s1_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s2/Visuals/jar_r4_b2_s2_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s2/Visuals/jar_r4_b2_s2_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s2/Visuals/jar_r4_b2_s2_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s3/Visuals/jar_r4_b2_s3_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s3/Visuals/jar_r4_b2_s3_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s3/Visuals/jar_r4_b2_s3_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s4/Visuals/jar_r4_b2_s4_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s4/Visuals/jar_r4_b2_s4_lid/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/jar_r4_b2_s4/Visuals/jar_r4_b2_s4_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s1/Visuals/bag_r4_b3_s1_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s1/Visuals/bag_r4_b3_s1_sealed_top/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s1/Visuals/bag_r4_b3_s1_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s2/Visuals/bag_r4_b3_s2_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s2/Visuals/bag_r4_b3_s2_sealed_top/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s2/Visuals/bag_r4_b3_s2_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s3/Visuals/bag_r4_b3_s3_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s3/Visuals/bag_r4_b3_s3_sealed_top/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s3/Visuals/bag_r4_b3_s3_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s4/Visuals/bag_r4_b3_s4_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s4/Visuals/bag_r4_b3_s4_sealed_top/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r4_b3_s4/Visuals/bag_r4_b3_s4_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s1/Visuals/carton_r5_b1_s1_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s1/Visuals/carton_r5_b1_s1_folded_top/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s1/Visuals/carton_r5_b1_s1_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s2/Visuals/carton_r5_b1_s2_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s2/Visuals/carton_r5_b1_s2_folded_top/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s2/Visuals/carton_r5_b1_s2_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s3/Visuals/carton_r5_b1_s3_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s3/Visuals/carton_r5_b1_s3_folded_top/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s3/Visuals/carton_r5_b1_s3_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s4/Visuals/carton_r5_b1_s4_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s4/Visuals/carton_r5_b1_s4_folded_top/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r5_b1_s4/Visuals/carton_r5_b1_s4_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s1/Visuals/box_r5_b2_s1_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s1/Visuals/box_r5_b2_s1_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s2/Visuals/box_r5_b2_s2_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s2/Visuals/box_r5_b2_s2_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s3/Visuals/box_r5_b2_s3_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s3/Visuals/box_r5_b2_s3_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s4/Visuals/box_r5_b2_s4_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r5_b2_s4/Visuals/box_r5_b2_s4_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s1/Visuals/bottle_r5_b3_s1_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s1/Visuals/bottle_r5_b3_s1_neck/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s1/Visuals/bottle_r5_b3_s1_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s1/Visuals/bottle_r5_b3_s1_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s2/Visuals/bottle_r5_b3_s2_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s2/Visuals/bottle_r5_b3_s2_neck/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s2/Visuals/bottle_r5_b3_s2_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s2/Visuals/bottle_r5_b3_s2_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s3/Visuals/bottle_r5_b3_s3_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s3/Visuals/bottle_r5_b3_s3_neck/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s3/Visuals/bottle_r5_b3_s3_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s3/Visuals/bottle_r5_b3_s3_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s4/Visuals/bottle_r5_b3_s4_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s4/Visuals/bottle_r5_b3_s4_neck/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s4/Visuals/bottle_r5_b3_s4_cap/Geom": {
+      "name": "package_lid_metal",
+      "color": [
+        0.34239163994789124,
+        0.38005632162094116,
+        0.4064483046531677
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/bottle_r5_b3_s4/Visuals/bottle_r5_b3_s4_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s1/Visuals/box_r6_b1_s1_body/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s1/Visuals/box_r6_b1_s1_front_label/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s2/Visuals/box_r6_b1_s2_body/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s2/Visuals/box_r6_b1_s2_front_label/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s3/Visuals/box_r6_b1_s3_body/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s3/Visuals/box_r6_b1_s3_front_label/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s4/Visuals/box_r6_b1_s4_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/box_r6_b1_s4/Visuals/box_r6_b1_s4_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s1/Visuals/carton_r6_b2_s1_body/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s1/Visuals/carton_r6_b2_s1_folded_top/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s1/Visuals/carton_r6_b2_s1_front_label/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s2/Visuals/carton_r6_b2_s2_body/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s2/Visuals/carton_r6_b2_s2_folded_top/Geom": {
+      "name": "package_color_9",
+      "color": [
+        0.10653922706842422,
+        0.027211781591176987,
+        0.007194409146904945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s2/Visuals/carton_r6_b2_s2_front_label/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s3/Visuals/carton_r6_b2_s3_body/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s3/Visuals/carton_r6_b2_s3_folded_top/Geom": {
+      "name": "package_color_0",
+      "color": [
+        0.7874122858047485,
+        0.027211781591176987,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s3/Visuals/carton_r6_b2_s3_front_label/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s4/Visuals/carton_r6_b2_s4_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s4/Visuals/carton_r6_b2_s4_folded_top/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/carton_r6_b2_s4/Visuals/carton_r6_b2_s4_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s1/Visuals/bag_r6_b3_s1_body/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s1/Visuals/bag_r6_b3_s1_sealed_top/Geom": {
+      "name": "package_color_1",
+      "color": [
+        0.9551045894622803,
+        0.295699805021286,
+        0.003935939632356167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s1/Visuals/bag_r6_b3_s1_front_label/Geom": {
+      "name": "package_color_5",
+      "color": [
+        0.007194409146904945,
+        0.07323895394802094,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s2/Visuals/bag_r6_b3_s2_body/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s2/Visuals/bag_r6_b3_s2_sealed_top/Geom": {
+      "name": "package_color_2",
+      "color": [
+        0.911407470703125,
+        0.6382831931114197,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s2/Visuals/bag_r6_b3_s2_front_label/Geom": {
+      "name": "package_color_6",
+      "color": [
+        0.19599418342113495,
+        0.03310476616024971,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s3/Visuals/bag_r6_b3_s3_body/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s3/Visuals/bag_r6_b3_s3_sealed_top/Geom": {
+      "name": "package_color_3",
+      "color": [
+        0.03310476616024971,
+        0.34239163994789124,
+        0.03968190774321556
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s3/Visuals/bag_r6_b3_s3_front_label/Geom": {
+      "name": "package_color_7",
+      "color": [
+        0.8275708556175232,
+        0.06372379511594772,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s4/Visuals/bag_r6_b3_s4_body/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s4/Visuals/bag_r6_b3_s4_sealed_top/Geom": {
+      "name": "package_color_4",
+      "color": [
+        0.003935939632356167,
+        0.2632734179496765,
+        0.3931231200695038
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/bag_r6_b3_s4/Visuals/bag_r6_b3_s4_front_label/Geom": {
+      "name": "package_color_8",
+      "color": [
+        0.7484140992164612,
+        0.7105664610862732,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    }
+  }
+}

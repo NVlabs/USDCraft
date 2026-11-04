@@ -1,0 +1,4217 @@
+{
+  "bodies": [
+    "/Asset/Links/piano_body",
+    "/Asset/Links/white_A0",
+    "/Asset/Links/black_As0",
+    "/Asset/Links/white_B0",
+    "/Asset/Links/white_C1",
+    "/Asset/Links/black_Cs1",
+    "/Asset/Links/white_D1",
+    "/Asset/Links/black_Ds1",
+    "/Asset/Links/white_E1",
+    "/Asset/Links/white_F1",
+    "/Asset/Links/black_Fs1",
+    "/Asset/Links/white_G1",
+    "/Asset/Links/black_Gs1",
+    "/Asset/Links/white_A1",
+    "/Asset/Links/black_As1",
+    "/Asset/Links/white_B1",
+    "/Asset/Links/white_C2",
+    "/Asset/Links/black_Cs2",
+    "/Asset/Links/white_D2",
+    "/Asset/Links/black_Ds2",
+    "/Asset/Links/white_E2",
+    "/Asset/Links/white_F2",
+    "/Asset/Links/black_Fs2",
+    "/Asset/Links/white_G2",
+    "/Asset/Links/black_Gs2",
+    "/Asset/Links/white_A2",
+    "/Asset/Links/black_As2",
+    "/Asset/Links/white_B2",
+    "/Asset/Links/white_C3",
+    "/Asset/Links/black_Cs3",
+    "/Asset/Links/white_D3",
+    "/Asset/Links/black_Ds3",
+    "/Asset/Links/white_E3",
+    "/Asset/Links/white_F3",
+    "/Asset/Links/black_Fs3",
+    "/Asset/Links/white_G3",
+    "/Asset/Links/black_Gs3",
+    "/Asset/Links/white_A3",
+    "/Asset/Links/black_As3",
+    "/Asset/Links/white_B3",
+    "/Asset/Links/white_C4",
+    "/Asset/Links/black_Cs4",
+    "/Asset/Links/white_D4",
+    "/Asset/Links/black_Ds4",
+    "/Asset/Links/white_E4",
+    "/Asset/Links/white_F4",
+    "/Asset/Links/black_Fs4",
+    "/Asset/Links/white_G4",
+    "/Asset/Links/black_Gs4",
+    "/Asset/Links/white_A4",
+    "/Asset/Links/black_As4",
+    "/Asset/Links/white_B4",
+    "/Asset/Links/white_C5",
+    "/Asset/Links/black_Cs5",
+    "/Asset/Links/white_D5",
+    "/Asset/Links/black_Ds5",
+    "/Asset/Links/white_E5",
+    "/Asset/Links/white_F5",
+    "/Asset/Links/black_Fs5",
+    "/Asset/Links/white_G5",
+    "/Asset/Links/black_Gs5",
+    "/Asset/Links/white_A5",
+    "/Asset/Links/black_As5",
+    "/Asset/Links/white_B5",
+    "/Asset/Links/white_C6",
+    "/Asset/Links/black_Cs6",
+    "/Asset/Links/white_D6",
+    "/Asset/Links/black_Ds6",
+    "/Asset/Links/white_E6",
+    "/Asset/Links/white_F6",
+    "/Asset/Links/black_Fs6",
+    "/Asset/Links/white_G6",
+    "/Asset/Links/black_Gs6",
+    "/Asset/Links/white_A6",
+    "/Asset/Links/black_As6",
+    "/Asset/Links/white_B6",
+    "/Asset/Links/white_C7",
+    "/Asset/Links/black_Cs7",
+    "/Asset/Links/white_D7",
+    "/Asset/Links/black_Ds7",
+    "/Asset/Links/white_E7",
+    "/Asset/Links/white_F7",
+    "/Asset/Links/black_Fs7",
+    "/Asset/Links/white_G7",
+    "/Asset/Links/black_Gs7",
+    "/Asset/Links/white_A7",
+    "/Asset/Links/black_As7",
+    "/Asset/Links/white_B7",
+    "/Asset/Links/white_C8",
+    "/Asset/Links/soft_pedal",
+    "/Asset/Links/sustain_pedal"
+  ],
+  "joints": [
+    {
+      "name": "press_white_A0",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A0",
+      "type": "revolute",
+      "pivot": [
+        -0.5982692241668701,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As0",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As0",
+      "type": "revolute",
+      "pivot": [
+        -0.5865384340286255,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B0",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B0",
+      "type": "revolute",
+      "pivot": [
+        -0.5748077034950256,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C1",
+      "type": "revolute",
+      "pivot": [
+        -0.5513461828231812,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs1",
+      "type": "revolute",
+      "pivot": [
+        -0.5396153926849365,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D1",
+      "type": "revolute",
+      "pivot": [
+        -0.5278846025466919,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds1",
+      "type": "revolute",
+      "pivot": [
+        -0.516153872013092,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E1",
+      "type": "revolute",
+      "pivot": [
+        -0.5044230818748474,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F1",
+      "type": "revolute",
+      "pivot": [
+        -0.48096153140068054,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs1",
+      "type": "revolute",
+      "pivot": [
+        -0.4692307710647583,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G1",
+      "type": "revolute",
+      "pivot": [
+        -0.45750001072883606,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs1",
+      "type": "revolute",
+      "pivot": [
+        -0.44576922059059143,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A1",
+      "type": "revolute",
+      "pivot": [
+        -0.4340384602546692,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As1",
+      "type": "revolute",
+      "pivot": [
+        -0.42230769991874695,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B1",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B1",
+      "type": "revolute",
+      "pivot": [
+        -0.4105769097805023,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C2",
+      "type": "revolute",
+      "pivot": [
+        -0.38711538910865784,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs2",
+      "type": "revolute",
+      "pivot": [
+        -0.3753846287727356,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D2",
+      "type": "revolute",
+      "pivot": [
+        -0.36365383863449097,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds2",
+      "type": "revolute",
+      "pivot": [
+        -0.3519230782985687,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E2",
+      "type": "revolute",
+      "pivot": [
+        -0.3401923179626465,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F2",
+      "type": "revolute",
+      "pivot": [
+        -0.3167307674884796,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs2",
+      "type": "revolute",
+      "pivot": [
+        -0.3050000071525574,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G2",
+      "type": "revolute",
+      "pivot": [
+        -0.29326921701431274,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs2",
+      "type": "revolute",
+      "pivot": [
+        -0.2815384566783905,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A2",
+      "type": "revolute",
+      "pivot": [
+        -0.26980769634246826,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As2",
+      "type": "revolute",
+      "pivot": [
+        -0.258076936006546,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B2",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B2",
+      "type": "revolute",
+      "pivot": [
+        -0.24634616076946259,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C3",
+      "type": "revolute",
+      "pivot": [
+        -0.22288461029529572,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs3",
+      "type": "revolute",
+      "pivot": [
+        -0.21115384995937347,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D3",
+      "type": "revolute",
+      "pivot": [
+        -0.19942307472229004,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds3",
+      "type": "revolute",
+      "pivot": [
+        -0.1876923143863678,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E3",
+      "type": "revolute",
+      "pivot": [
+        -0.17596153914928436,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F3",
+      "type": "revolute",
+      "pivot": [
+        -0.1525000035762787,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs3",
+      "type": "revolute",
+      "pivot": [
+        -0.14076922833919525,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G3",
+      "type": "revolute",
+      "pivot": [
+        -0.129038468003273,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs3",
+      "type": "revolute",
+      "pivot": [
+        -0.11730769276618958,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A3",
+      "type": "revolute",
+      "pivot": [
+        -0.10557692497968674,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As3",
+      "type": "revolute",
+      "pivot": [
+        -0.0938461571931839,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B3",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B3",
+      "type": "revolute",
+      "pivot": [
+        -0.08211538195610046,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C4",
+      "type": "revolute",
+      "pivot": [
+        -0.05865384638309479,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs4",
+      "type": "revolute",
+      "pivot": [
+        -0.04692307859659195,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D4",
+      "type": "revolute",
+      "pivot": [
+        -0.03519230708479881,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds4",
+      "type": "revolute",
+      "pivot": [
+        -0.023461539298295975,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E4",
+      "type": "revolute",
+      "pivot": [
+        -0.011730769649147987,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F4",
+      "type": "revolute",
+      "pivot": [
+        0.011730769649147987,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs4",
+      "type": "revolute",
+      "pivot": [
+        0.023461539298295975,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G4",
+      "type": "revolute",
+      "pivot": [
+        0.03519230708479881,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs4",
+      "type": "revolute",
+      "pivot": [
+        0.04692307859659195,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A4",
+      "type": "revolute",
+      "pivot": [
+        0.05865384638309479,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As4",
+      "type": "revolute",
+      "pivot": [
+        0.07038461416959763,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B4",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B4",
+      "type": "revolute",
+      "pivot": [
+        0.08211538195610046,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C5",
+      "type": "revolute",
+      "pivot": [
+        0.10557692497968674,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs5",
+      "type": "revolute",
+      "pivot": [
+        0.11730769276618958,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D5",
+      "type": "revolute",
+      "pivot": [
+        0.129038468003273,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds5",
+      "type": "revolute",
+      "pivot": [
+        0.14076922833919525,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E5",
+      "type": "revolute",
+      "pivot": [
+        0.1525000035762787,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F5",
+      "type": "revolute",
+      "pivot": [
+        0.17596153914928436,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs5",
+      "type": "revolute",
+      "pivot": [
+        0.1876923143863678,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G5",
+      "type": "revolute",
+      "pivot": [
+        0.19942307472229004,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs5",
+      "type": "revolute",
+      "pivot": [
+        0.21115384995937347,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A5",
+      "type": "revolute",
+      "pivot": [
+        0.22288461029529572,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As5",
+      "type": "revolute",
+      "pivot": [
+        0.23461538553237915,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B5",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B5",
+      "type": "revolute",
+      "pivot": [
+        0.24634616076946259,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C6",
+      "type": "revolute",
+      "pivot": [
+        0.26980769634246826,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs6",
+      "type": "revolute",
+      "pivot": [
+        0.2815384566783905,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D6",
+      "type": "revolute",
+      "pivot": [
+        0.29326921701431274,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds6",
+      "type": "revolute",
+      "pivot": [
+        0.3050000071525574,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E6",
+      "type": "revolute",
+      "pivot": [
+        0.3167307674884796,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F6",
+      "type": "revolute",
+      "pivot": [
+        0.3401923179626465,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs6",
+      "type": "revolute",
+      "pivot": [
+        0.3519230782985687,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G6",
+      "type": "revolute",
+      "pivot": [
+        0.36365383863449097,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs6",
+      "type": "revolute",
+      "pivot": [
+        0.3753846287727356,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A6",
+      "type": "revolute",
+      "pivot": [
+        0.38711538910865784,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As6",
+      "type": "revolute",
+      "pivot": [
+        0.3988461494445801,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B6",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B6",
+      "type": "revolute",
+      "pivot": [
+        0.4105769097805023,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C7",
+      "type": "revolute",
+      "pivot": [
+        0.4340384602546692,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Cs7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Cs7",
+      "type": "revolute",
+      "pivot": [
+        0.44576922059059143,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_D7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_D7",
+      "type": "revolute",
+      "pivot": [
+        0.45750001072883606,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Ds7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Ds7",
+      "type": "revolute",
+      "pivot": [
+        0.4692307710647583,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_E7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_E7",
+      "type": "revolute",
+      "pivot": [
+        0.48096153140068054,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_F7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_F7",
+      "type": "revolute",
+      "pivot": [
+        0.5044230818748474,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Fs7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Fs7",
+      "type": "revolute",
+      "pivot": [
+        0.516153872013092,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_G7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_G7",
+      "type": "revolute",
+      "pivot": [
+        0.5278846025466919,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_Gs7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_Gs7",
+      "type": "revolute",
+      "pivot": [
+        0.5396153926849365,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_A7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_A7",
+      "type": "revolute",
+      "pivot": [
+        0.5513461828231812,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_black_As7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/black_As7",
+      "type": "revolute",
+      "pivot": [
+        0.563076913356781,
+        0.7670000195503235,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.06999999915262065
+    },
+    {
+      "name": "press_white_B7",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_B7",
+      "type": "revolute",
+      "pivot": [
+        0.5748077034950256,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "press_white_C8",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/white_C8",
+      "type": "revolute",
+      "pivot": [
+        0.5982692241668701,
+        0.7379999756813049,
+        0.12999999523162842
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.08999999772160105
+    },
+    {
+      "name": "operate_soft_pedal",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/soft_pedal",
+      "type": "revolute",
+      "pivot": [
+        -0.05999999865889549,
+        0.15800000727176666,
+        0.19499999284744263
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.1799999954432021
+    },
+    {
+      "name": "operate_sustain_pedal",
+      "parent": "/Asset/Links/piano_body",
+      "child": "/Asset/Links/sustain_pedal",
+      "type": "revolute",
+      "pivot": [
+        0.05999999865889549,
+        0.15800000727176666,
+        0.19499999284744263
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.1799999954432021
+    }
+  ],
+  "moving_joint_count": 90,
+  "floating": [
+    {
+      "body": "/Asset/Links/piano_body",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.5199999809265137
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/piano_body/Visuals/base_plinth/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/left_front_foot/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/left_rear_foot/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/left_lower_leg/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/right_front_foot/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/right_rear_foot/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/right_lower_leg/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/rear_carcass/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_front_panel/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_stretcher/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/left_side_post/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/right_side_post/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/keybed/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/keyboard_apron/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/front_key_rail/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/white_pivot_rail/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/black_pivot_rail/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/left_key_cheek/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/right_key_cheek/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/front_felt_strip/Geom": {
+      "name": "key_bed_felt",
+      "color": [
+        0.09462962299585342,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9399999976158142,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_front_board/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/top_cap/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/top_cove/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_top__0_49/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_bottom__0_49/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_side__0_49__0_14/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_side__0_49__0_14_2/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_top__0_49_2/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_bottom__0_49_2/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_side__0_49__0_14_3/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/upper_panel_side__0_49__0_14_4/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_panel_side__0_51/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_panel_side__0_51_2/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_panel_rail_0_215/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/lower_panel_rail_0_515/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_upright__0_235/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_upright__0_235_2/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_crossbar_0_920/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_crossbar_1_045/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_crossbar_1_170/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_ledge/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/music_ledge_lip/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/pedal_support/Geom": {
+      "name": "warm_mahogany",
+      "color": [
+        0.07828831672668457,
+        0.010816383175551891,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/piano_body/Visuals/pedal_hinge_block/Geom": {
+      "name": "dark_mahogany_trim",
+      "color": [
+        0.018478473648428917,
+        0.0030959751456975937,
+        0.0013931888388469815
+      ],
+      "opacity": 1.0,
+      "roughness": 0.25999999046325684,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A0/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A0/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As0/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As0/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B0/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B0/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs1/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs1/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds1/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds1/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs1/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs1/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs1/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs1/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As1/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As1/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B1/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B1/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs2/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs2/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds2/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds2/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs2/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs2/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs2/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs2/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As2/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As2/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B2/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B2/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs3/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs3/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds3/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds3/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs3/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs3/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs3/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs3/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As3/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As3/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B3/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B3/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs4/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs4/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds4/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds4/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs4/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs4/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs4/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs4/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As4/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As4/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B4/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B4/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs5/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs5/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds5/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds5/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs5/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs5/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs5/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs5/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As5/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As5/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B5/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B5/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs6/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs6/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds6/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds6/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs6/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs6/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs6/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs6/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As6/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As6/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B6/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B6/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs7/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Cs7/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_D7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds7/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Ds7/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_E7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_F7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs7/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Fs7/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_G7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs7/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_Gs7/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_A7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As7/Visuals/black_key_body/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/black_As7/Visuals/pivot_heel/Geom": {
+      "name": "ebony_keys",
+      "color": [
+        0.0013931888388469815,
+        0.0010835913708433509,
+        0.0009287925786338747
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B7/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_B7/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C8/Visuals/white_key_body/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/white_C8/Visuals/pivot_heel/Geom": {
+      "name": "warm_keytops",
+      "color": [
+        0.848088264465332,
+        0.7874122858047485,
+        0.5704815983772278
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/soft_pedal/Visuals/pedal_stem/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/soft_pedal/Visuals/pedal_toe/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/soft_pedal/Visuals/pedal_pivot_knuckle/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/sustain_pedal/Visuals/pedal_stem/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/sustain_pedal/Visuals/pedal_toe/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/sustain_pedal/Visuals/pedal_pivot_knuckle/Geom": {
+      "name": "aged_brass",
+      "color": [
+        0.15487249195575714,
+        0.06838485598564148,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3199999928474426,
+      "ior": 1.45
+    }
+  }
+}

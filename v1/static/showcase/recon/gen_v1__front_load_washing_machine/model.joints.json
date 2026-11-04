@@ -1,0 +1,559 @@
+{
+ "bodies": [
+  "/Asset/Links/cabinet",
+  "/Asset/Links/door",
+  "/Asset/Links/detergent_drawer",
+  "/Asset/Links/selector",
+  "/Asset/Links/drum"
+ ],
+ "joints": [
+  {
+   "name": "door_hinge",
+   "parent": "/Asset/Links/cabinet",
+   "child": "/Asset/Links/door",
+   "type": "revolute",
+   "pivot": [
+    -0.2800000011920929,
+    0.41999998688697815,
+    0.36000001430511475
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": -1.8500000049499319,
+   "upper": 0.0
+  },
+  {
+   "name": "drawer_slide",
+   "parent": "/Asset/Links/cabinet",
+   "child": "/Asset/Links/detergent_drawer",
+   "type": "prismatic",
+   "pivot": [
+    -0.15000000596046448,
+    0.7570000290870667,
+    0.30000001192092896
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.0,
+    0.9999999999999993
+   ],
+   "lower": 0.0,
+   "upper": 0.18000000715255737
+  },
+  {
+   "name": "selector_turn",
+   "parent": "/Asset/Links/cabinet",
+   "child": "/Asset/Links/selector",
+   "type": "revolute",
+   "pivot": [
+    0.2150000035762787,
+    0.7649999856948853,
+    0.33000001311302185
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.0,
+    0.9999999999999993
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "drum_spin",
+   "parent": "/Asset/Links/cabinet",
+   "child": "/Asset/Links/drum",
+   "type": "revolute",
+   "pivot": [
+    0.0,
+    0.41999998688697815,
+    0.02250000089406967
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.0,
+    -0.9999999999999993
+   ],
+   "lower": null,
+   "upper": null
+  }
+ ],
+ "moving_joint_count": 4,
+ "floating": [
+  {
+   "body": "/Asset/Links/cabinet",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.8500000003129243
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/cabinet/Visuals/side_0_29/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/side0_29/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/top/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/back/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/floor/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/plinth/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/controls/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/drawer_header/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/front_post_0_28/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/front_post0_28/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/lower_crossbar/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/port_surround/Geom/port_surround_obj": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/gasket/Geom/gasket_obj": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/foot_0_245_0_255/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/foot_0_2450_255/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/foot0_245_0_255/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/foot0_2450_255/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/screen_bezel/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/screen/Geom": {
+   "name": "display",
+   "color": [
+    0.007194409146904945,
+    0.15487249195575714,
+    0.22341398894786835
+   ],
+   "opacity": 1.0,
+   "roughness": 0.23999999463558197,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/button0/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/button1/Geom": {
+   "name": "display",
+   "color": [
+    0.007194409146904945,
+    0.15487249195575714,
+    0.22341398894786835
+   ],
+   "opacity": 1.0,
+   "roughness": 0.23999999463558197,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/button2/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/drawer_rail_0_25/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/drawer_rail_0_05/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/white_rim/Geom/white_rim_obj": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/dark_rim/Geom/dark_rim_obj": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/window/Geom": {
+   "name": "smoked_window",
+   "color": [
+    0.021980946883559227,
+    0.043233636766672134,
+    0.05497173219919205
+   ],
+   "opacity": 1.0,
+   "roughness": 0.1899999976158142,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/facade/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/pull/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/tray_floor/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/tray_wall_0_108/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/tray_wall0/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/tray_wall0_108/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/detergent_drawer/Visuals/tray_back/Geom": {
+   "name": "enamel",
+   "color": [
+    0.7293471097946167,
+    0.7677687406539917,
+    0.7677687406539917
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/selector/Visuals/dial/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.00758409732952714,
+    0.008122432976961136
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Asset/Links/selector/Visuals/indicator/Geom": {
+   "name": "display",
+   "color": [
+    0.007194409146904945,
+    0.15487249195575714,
+    0.22341398894786835
+   ],
+   "opacity": 1.0,
+   "roughness": 0.23999999463558197,
+   "ior": 1.45
+  },
+  "/Asset/Links/drum/Visuals/drum_shell/Geom/drum_shell_obj": {
+   "name": "stainless",
+   "color": [
+    0.19599418342113495,
+    0.24286681413650513,
+    0.2632734179496765
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/drum/Visuals/drum_back/Geom": {
+   "name": "stainless",
+   "color": [
+    0.19599418342113495,
+    0.24286681413650513,
+    0.2632734179496765
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/drum/Visuals/lifter0/Geom": {
+   "name": "stainless",
+   "color": [
+    0.19599418342113495,
+    0.24286681413650513,
+    0.2632734179496765
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/drum/Visuals/lifter1/Geom": {
+   "name": "stainless",
+   "color": [
+    0.19599418342113495,
+    0.24286681413650513,
+    0.2632734179496765
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  },
+  "/Asset/Links/drum/Visuals/lifter2/Geom": {
+   "name": "stainless",
+   "color": [
+    0.19599418342113495,
+    0.24286681413650513,
+    0.2632734179496765
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3199999928474426,
+   "ior": 1.45
+  }
+ }
+}

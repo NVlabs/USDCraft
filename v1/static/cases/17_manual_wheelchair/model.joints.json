@@ -1,0 +1,1344 @@
+{
+  "bodies": [
+    "/Asset/Links/frame",
+    "/Asset/Links/left_drive_wheel",
+    "/Asset/Links/right_drive_wheel",
+    "/Asset/Links/left_caster_fork",
+    "/Asset/Links/left_caster_wheel",
+    "/Asset/Links/right_caster_fork",
+    "/Asset/Links/right_caster_wheel",
+    "/Asset/Links/left_footrest",
+    "/Asset/Links/right_footrest",
+    "/Asset/Links/left_brake",
+    "/Asset/Links/right_brake"
+  ],
+  "joints": [
+    {
+      "name": "left_drive_axle",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/left_drive_wheel",
+      "type": "revolute",
+      "pivot": [
+        -0.10000000149011612,
+        0.3199999928474426,
+        -0.3149999976158142
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "right_drive_axle",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/right_drive_wheel",
+      "type": "revolute",
+      "pivot": [
+        -0.10000000149011612,
+        0.3199999928474426,
+        0.3149999976158142
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "left_caster_swivel",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/left_caster_fork",
+      "type": "revolute",
+      "pivot": [
+        0.3700000047683716,
+        0.17000000178813934,
+        -0.2549999952316284
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "right_caster_swivel",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/right_caster_fork",
+      "type": "revolute",
+      "pivot": [
+        0.3700000047683716,
+        0.17000000178813934,
+        0.2549999952316284
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "left_footrest_hinge",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/left_footrest",
+      "type": "revolute",
+      "pivot": [
+        0.2549999952316284,
+        0.22499999403953552,
+        -0.12999999523162842
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 1.3500000324030432
+    },
+    {
+      "name": "right_footrest_hinge",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/right_footrest",
+      "type": "revolute",
+      "pivot": [
+        0.2549999952316284,
+        0.22499999403953552,
+        0.12999999523162842
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 1.3500000324030432
+    },
+    {
+      "name": "left_brake_hinge",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/left_brake",
+      "type": "revolute",
+      "pivot": [
+        0.07999999821186066,
+        0.5,
+        -0.2849999964237213
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.2799999966104826
+    },
+    {
+      "name": "right_brake_hinge",
+      "parent": "/Asset/Links/frame",
+      "child": "/Asset/Links/right_brake",
+      "type": "revolute",
+      "pivot": [
+        0.07999999821186066,
+        0.5,
+        0.2849999964237213
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.2799999966104826
+    },
+    {
+      "name": "left_caster_axle",
+      "parent": "/Asset/Links/left_caster_fork",
+      "child": "/Asset/Links/left_caster_wheel",
+      "type": "revolute",
+      "pivot": [
+        0.45500000089406967,
+        0.07500000119209291,
+        -0.255
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "right_caster_axle",
+      "parent": "/Asset/Links/right_caster_fork",
+      "child": "/Asset/Links/right_caster_wheel",
+      "type": "revolute",
+      "pivot": [
+        0.45500000089406967,
+        0.07500000119209291,
+        0.255
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    }
+  ],
+  "moving_joint_count": 10,
+  "floating": [
+    {
+      "body": "/Asset/Links/frame",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.0340000062217607
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/frame/Visuals/left_seat_rail/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_lower_rail/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_back_post/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_front_drop/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_arm_diagonal/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_arm_front_post/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_armrest_pad/Geom": {
+      "name": "black_upholstery",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0029411765281111
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_push_handle/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_push_grip/Geom": {
+      "name": "grip_rubber",
+      "color": [
+        0.004896310158073902,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_seat_rail/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_lower_rail/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_back_post/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_front_drop/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_arm_diagonal/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_arm_front_post/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_armrest_pad/Geom": {
+      "name": "black_upholstery",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0029411765281111
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_push_handle/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_push_grip/Geom": {
+      "name": "grip_rubber",
+      "color": [
+        0.004896310158073902,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/rear_seat_crossbar/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/front_seat_crossbar/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/lower_crossbar/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/footrest_hinge_crossbar/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/back_crossbar/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_footrest_hinge_gusset/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_footrest_hinge_gusset/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/seat_cushion/Geom": {
+      "name": "black_upholstery",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0029411765281111
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/backrest/Geom": {
+      "name": "black_upholstery",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0029411765281111
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_drive_axle_boss/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_drive_axle_boss/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_caster_head/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_caster_head/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/left_brake_mount/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/frame/Visuals/right_brake_mount/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/tire/Geom/mesh": {
+      "name": "dark_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.0017801857320591807
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/hub/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_00/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_01/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_02/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_03/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_04/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_05/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_06/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/spoke_07/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/push_rim/Geom/mesh": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/push_rim_tab_0/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/push_rim_tab_1/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/push_rim_tab_2/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_drive_wheel/Visuals/push_rim_tab_3/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/tire/Geom/mesh": {
+      "name": "dark_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.0017801857320591807
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/hub/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_00/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_01/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_02/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_03/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_04/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_05/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_06/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/spoke_07/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/push_rim/Geom/mesh": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/push_rim_tab_0/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/push_rim_tab_1/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/push_rim_tab_2/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_drive_wheel/Visuals/push_rim_tab_3/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_fork/Visuals/swivel_stem/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_fork/Visuals/fork_crown/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_fork/Visuals/outer_fork_blade/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_fork/Visuals/inner_fork_blade/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_fork/Visuals/caster_axle/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_tire/Geom/mesh": {
+      "name": "dark_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.0017801857320591807
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_hub/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_spoke_0/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_spoke_1/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_spoke_2/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_caster_wheel/Visuals/caster_spoke_3/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_fork/Visuals/swivel_stem/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_fork/Visuals/fork_crown/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_fork/Visuals/outer_fork_blade/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_fork/Visuals/inner_fork_blade/Geom": {
+      "name": "blue_powder_coat",
+      "color": [
+        0.0027089782524853945,
+        0.021980946883559227,
+        0.17886750400066376
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_fork/Visuals/caster_axle/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_tire/Geom/mesh": {
+      "name": "dark_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.0017801857320591807
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_hub/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_spoke_0/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_spoke_1/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_spoke_2/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_caster_wheel/Visuals/caster_spoke_3/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_footrest/Visuals/hinge_barrel/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_footrest/Visuals/footrest_support/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_footrest/Visuals/footplate/Geom": {
+      "name": "footplate_polymer",
+      "color": [
+        0.00854038167744875,
+        0.010022825561463833,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_footrest/Visuals/heel_lip/Geom": {
+      "name": "footplate_polymer",
+      "color": [
+        0.00854038167744875,
+        0.010022825561463833,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_footrest/Visuals/hinge_barrel/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_footrest/Visuals/footrest_support/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_footrest/Visuals/footplate/Geom": {
+      "name": "footplate_polymer",
+      "color": [
+        0.00854038167744875,
+        0.010022825561463833,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_footrest/Visuals/heel_lip/Geom": {
+      "name": "footplate_polymer",
+      "color": [
+        0.00854038167744875,
+        0.010022825561463833,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_brake/Visuals/brake_pivot_barrel/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_brake/Visuals/brake_shoe_arm/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_brake/Visuals/brake_shoe_tip/Geom": {
+      "name": "grip_rubber",
+      "color": [
+        0.004896310158073902,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_brake/Visuals/brake_hand_lever/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_brake/Visuals/brake_handle/Geom": {
+      "name": "brake_control_red",
+      "color": [
+        0.34239163994789124,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_brake/Visuals/brake_pivot_barrel/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_brake/Visuals/brake_shoe_arm/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_brake/Visuals/brake_shoe_tip/Geom": {
+      "name": "grip_rubber",
+      "color": [
+        0.004896310158073902,
+        0.005422868765890598,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_brake/Visuals/brake_hand_lever/Geom": {
+      "name": "satin_aluminum",
+      "color": [
+        0.4200332760810852,
+        0.47699978947639465,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_brake/Visuals/brake_handle/Geom": {
+      "name": "brake_control_red",
+      "color": [
+        0.34239163994789124,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    }
+  }
+}

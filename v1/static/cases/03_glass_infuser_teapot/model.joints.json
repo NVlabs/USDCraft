@@ -1,0 +1,370 @@
+{
+  "bodies": [
+    "/Asset/Links/teapot",
+    "/Asset/Links/infuser",
+    "/Asset/Links/lid"
+  ],
+  "joints": [],
+  "moving_joint_count": 0,
+  "floating": [
+    {
+      "body": "/Asset/Links/lid",
+      "pivot": [
+        0.0,
+        0.137,
+        0.0
+      ],
+      "extent": 0.13199999928474426
+    },
+    {
+      "body": "/Asset/Links/infuser",
+      "pivot": [
+        0.0,
+        0.132,
+        0.0
+      ],
+      "extent": 0.12399999797344208
+    },
+    {
+      "body": "/Asset/Links/teapot",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.29576799273490906
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/teapot/Visuals/glass_body_shell/Geom/mesh": {
+      "name": "clear_borosilicate_glass",
+      "color": [
+        0.8275708556175232,
+        0.9331068396568298,
+        1.0
+      ],
+      "opacity": 0.03999999910593033,
+      "roughness": 0.04500000178813934,
+      "ior": 1.4700000286102295
+    },
+    "/Asset/Links/teapot/Visuals/hollow_pouring_spout/Geom/mesh": {
+      "name": "clear_borosilicate_glass",
+      "color": [
+        0.8275708556175232,
+        0.9331068396568298,
+        1.0
+      ],
+      "opacity": 0.03999999910593033,
+      "roughness": 0.04500000178813934,
+      "ior": 1.4700000286102295
+    },
+    "/Asset/Links/teapot/Visuals/four_finger_glass_handle/Geom/mesh": {
+      "name": "clear_borosilicate_glass",
+      "color": [
+        0.8275708556175232,
+        0.9331068396568298,
+        1.0
+      ],
+      "opacity": 0.03999999910593033,
+      "roughness": 0.04500000178813934,
+      "ior": 1.4700000286102295
+    },
+    "/Asset/Links/infuser/Visuals/perforated_basket_shell/Geom/mesh": {
+      "name": "fine_stainless_infuser_mesh",
+      "color": [
+        0.19599418342113495,
+        0.22341398894786835,
+        0.24286681413650513
+      ],
+      "opacity": 0.3400000035762787,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/perforated_basket_floor/Geom": {
+      "name": "fine_stainless_infuser_mesh",
+      "color": [
+        0.19599418342113495,
+        0.22341398894786835,
+        0.24286681413650513
+      ],
+      "opacity": 0.3400000035762787,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/basket_top_collar/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/support_flange/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_ring_00/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_ring_01/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_ring_02/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_ring_03/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_ring_04/Geom/mesh": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_00/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_01/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_02/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_03/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_04/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_05/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_06/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_07/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_08/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_09/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_10/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_11/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_12/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_13/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_14/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/infuser/Visuals/mesh_vertical_15/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/lid/Visuals/lid_disk/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    },
+    "/Asset/Links/lid/Visuals/shallow_center_grip/Geom": {
+      "name": "brushed_stainless_steel",
+      "color": [
+        0.3546920716762543,
+        0.3931231200695038,
+        0.4200332760810852
+      ],
+      "opacity": 1.0,
+      "roughness": 0.28999999165534973,
+      "ior": 1.45
+    }
+  }
+}

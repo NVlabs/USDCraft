@@ -1,0 +1,1054 @@
+{
+ "bodies": [
+  "/Asset/Links/body",
+  "/Asset/Links/door",
+  "/Asset/Links/power",
+  "/Asset/Links/timer",
+  "/Asset/Links/turntable"
+ ],
+ "joints": [
+  {
+   "name": "door_hinge",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/door",
+   "type": "revolute",
+   "pivot": [
+    -0.3070000112056732,
+    0.0,
+    0.06499999761581421
+   ],
+   "axis": [
+    -6.160125230139637e-08,
+    0.9999999999999982,
+    0.0
+   ],
+   "lower": -0.6499999909425662,
+   "upper": 0.6799999679900909
+  },
+  {
+   "name": "power_rotation",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/power",
+   "type": "revolute",
+   "pivot": [
+    0.257999986410141,
+    0.06599999964237213,
+    0.06300000101327896
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.5000001290505525,
+   "upper": 2.5000001290505525
+  },
+  {
+   "name": "timer_rotation",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/timer",
+   "type": "revolute",
+   "pivot": [
+    0.257999986410141,
+    -0.04100000113248825,
+    0.06300000101327896
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.5000001290505525,
+   "upper": 2.5000001290505525
+  },
+  {
+   "name": "turntable_rotation",
+   "parent": "/Asset/Links/body",
+   "child": "/Asset/Links/turntable",
+   "type": "revolute",
+   "pivot": [
+    -0.06700000166893005,
+    -0.13500000536441803,
+    -0.12999999523162842
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": -3.141592653589793,
+   "upper": 3.141592653589793
+  }
+ ],
+ "moving_joint_count": 4,
+ "floating": [
+  {
+   "body": "/Asset/Links/body",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.6380000114440918
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/body/Visuals/top/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/bottom/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/left/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/right/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/rear/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/inner_back/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/inner_left/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/inner_right/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/floor/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/ceiling/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/liner_mount/Geom": {
+   "name": "cavity_enamel",
+   "color": [
+    0.03968190774321556,
+    0.043233636766672134,
+    0.04696420207619667
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/fascia_upper/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/fascia_lower/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/fascia_left/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/fascia_right/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/control_panel/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/latch_slot_0_041/Geom": {
+   "name": "smoked_window",
+   "color": [
+    0.0027089782524853945,
+    0.0035010159481316805,
+    0.003935939632356167
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25999999046325684,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/latch_slot0_066/Geom": {
+   "name": "smoked_window",
+   "color": [
+    0.0027089782524853945,
+    0.0035010159481316805,
+    0.003935939632356167
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25999999046325684,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/foot_0_2180_0/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/foot_0_2180_242/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/foot0_2350_0/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/foot0_2350_242/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/hinge_pin_0_12/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/hinge_mount_0_12/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/hinge_pin0_12/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/hinge_mount0_12/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick0/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick1/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick2/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick3/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick4/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick5/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick6/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick7/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick8/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick9/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/powertick10/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick0/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick1/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick2/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick3/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick4/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick5/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick6/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick7/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick8/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick9/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/timertick10/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/body/Visuals/spindle/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/door_panel/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/window/Geom": {
+   "name": "smoked_window",
+   "color": [
+    0.0027089782524853945,
+    0.0035010159481316805,
+    0.003935939632356167
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25999999046325684,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/inner_window/Geom": {
+   "name": "smoked_window",
+   "color": [
+    0.0027089782524853945,
+    0.0035010159481316805,
+    0.003935939632356167
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25999999046325684,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/edge0_006/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/edge0_373/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/edge_0_169/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/edge0_17/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle0/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle1/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle2/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle3/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle4/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle5/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle6/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle7/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle8/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle9/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle10/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle11/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle12/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle13/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle14/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle15/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle16/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle17/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle18/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle19/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle_mount_0_137/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/door/Visuals/handle_mount0_137/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/power/Visuals/bezel/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/power/Visuals/shaft/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/power/Visuals/dial/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/power/Visuals/pointer/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/timer/Visuals/bezel/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/timer/Visuals/shaft/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/timer/Visuals/dial/Geom": {
+   "name": "silver",
+   "color": [
+    0.36724647879600525,
+    0.3931231200695038,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2800000011920929,
+   "ior": 1.45
+  },
+  "/Asset/Links/timer/Visuals/pointer/Geom": {
+   "name": "charcoal",
+   "color": [
+    0.005422868765890598,
+    0.005981059744954109,
+    0.006571403704583645
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/turntable/Visuals/plate/Geom": {
+   "name": "glass_tray",
+   "color": [
+    0.17064493894577026,
+    0.19599418342113495,
+    0.19599418342113495
+   ],
+   "opacity": 0.75,
+   "roughness": 0.17000000178813934,
+   "ior": 1.45
+  }
+ }
+}

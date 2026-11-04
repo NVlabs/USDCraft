@@ -1,0 +1,646 @@
+{
+ "bodies": [
+  "/Console/Base",
+  "/Console/Lid"
+ ],
+ "joints": [
+  {
+   "name": "Hinge",
+   "parent": "/Console/Base",
+   "child": "/Console/Lid",
+   "type": "revolute",
+   "pivot": [
+    0.0,
+    0.016499999910593033,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": -0.1745324163049986,
+   "upper": 2.9670602372847945
+  }
+ ],
+ "moving_joint_count": 1,
+ "floating": [],
+ "appearance": {
+  "/Console/Base/BottomShell": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/PerimeterSeam": {
+   "name": "edge",
+   "color": [
+    0.017999999225139618,
+    0.01899999938905239,
+    0.019999999552965164
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Console/Base/ControlDeck": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/ScreenBezel": {
+   "name": "edge",
+   "color": [
+    0.017999999225139618,
+    0.01899999938905239,
+    0.019999999552965164
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Console/Base/TouchScreen": {
+   "name": "glass",
+   "color": [
+    0.27000001072883606,
+    0.2800000011920929,
+    0.2849999964237213
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2199999988079071,
+   "ior": 1.45
+  },
+  "/Console/Base/Bearingm0_059": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/Bearing0_059": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/ButtonX": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/ButtonA": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/ButtonB": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/ButtonY": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadHorizontal": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadVertical": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadMark00_0058": {
+   "name": "ink",
+   "color": [
+    0.6600000262260437,
+    0.6700000166893005,
+    0.6499999761581421
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadMark0m0_0058": {
+   "name": "ink",
+   "color": [
+    0.6600000262260437,
+    0.6700000166893005,
+    0.6499999761581421
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadMark0_00580": {
+   "name": "ink",
+   "color": [
+    0.6600000262260437,
+    0.6700000166893005,
+    0.6499999761581421
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/DpadMarkm0_00580": {
+   "name": "ink",
+   "color": [
+    0.6600000262260437,
+    0.6700000166893005,
+    0.6499999761581421
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/Start": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/Select": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/CartridgeCover": {
+   "name": "edge",
+   "color": [
+    0.017999999225139618,
+    0.01899999938905239,
+    0.019999999552965164
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Console/Base/CartridgeFace": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRecess": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRidge0": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRidge1": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRidge2": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRidge3": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/VolumeRidge4": {
+   "name": "button",
+   "color": [
+    0.02800000086426735,
+    0.029999999329447746,
+    0.03099999949336052
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Console/Base/AudioPort": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelX": {
+   "name": "LabelX",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelA": {
+   "name": "LabelA",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelB": {
+   "name": "LabelB",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelY": {
+   "name": "LabelY",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelSTART": {
+   "name": "LabelSTART",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Base/LabelSELECT": {
+   "name": "LabelSELECT",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6,
+   "ior": 1.45
+  },
+  "/Console/Lid/BackShell": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/PerimeterSeam": {
+   "name": "edge",
+   "color": [
+    0.017999999225139618,
+    0.01899999938905239,
+    0.019999999552965164
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/InnerPanel": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/ScreenBezel": {
+   "name": "edge",
+   "color": [
+    0.017999999225139618,
+    0.01899999938905239,
+    0.019999999552965164
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6000000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/UpperLCD": {
+   "name": "glass",
+   "color": [
+    0.27000001072883606,
+    0.2800000011920929,
+    0.2849999964237213
+   ],
+   "opacity": 1.0,
+   "roughness": 0.2199999988079071,
+   "ior": 1.45
+  },
+  "/Console/Lid/HingeBar": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_0": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_1": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_2": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_3": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_4": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speakerm1_5": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_0": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_1": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_2": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_3": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_4": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Speaker1_5": {
+   "name": "hole",
+   "color": [
+    0.0020000000949949026,
+    0.0020000000949949026,
+    0.0020000000949949026
+   ],
+   "opacity": 1.0,
+   "roughness": 0.8500000238418579,
+   "ior": 1.45
+  },
+  "/Console/Lid/Bumperm0_047_0_007": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/Bumperm0_047_0_061": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/Bumper0_047_0_007": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  },
+  "/Console/Lid/Bumper0_047_0_061": {
+   "name": "shell",
+   "color": [
+    0.03500000014901161,
+    0.03700000047683716,
+    0.03799999877810478
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6499999761581421,
+   "ior": 1.45
+  }
+ }
+}

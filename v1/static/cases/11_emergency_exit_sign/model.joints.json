@@ -1,0 +1,326 @@
+{
+  "bodies": [
+    "/Asset/Links/sign_housing",
+    "/Asset/Links/ceiling_mount_bracket"
+  ],
+  "joints": [
+    {
+      "name": "housing_to_mount_bracket",
+      "parent": "/Asset/Links/sign_housing",
+      "child": "/Asset/Links/ceiling_mount_bracket",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.12600000202655792,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    }
+  ],
+  "moving_joint_count": 0,
+  "floating": [
+    {
+      "body": "/Asset/Links/sign_housing",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.5799999992251397
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/sign_housing/Visuals/central_lightbox_shell/Geom": {
+      "name": "dark_powder_coated_shell",
+      "color": [
+        0.004400849808007479,
+        0.003254215233027935,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/front_face_panel/Geom": {
+      "name": "warm_illuminated_acrylic",
+      "color": [
+        0.868899405002594,
+        0.295699805021286,
+        0.03310476616024971
+      ],
+      "opacity": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "ior": 1.4900000095367432
+    },
+    "/Asset/Links/sign_housing/Visuals/rear_face_panel/Geom": {
+      "name": "warm_illuminated_acrylic",
+      "color": [
+        0.868899405002594,
+        0.295699805021286,
+        0.03310476616024971
+      ],
+      "opacity": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "ior": 1.4900000095367432
+    },
+    "/Asset/Links/sign_housing/Visuals/front_bezel/Geom/mesh": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/rear_bezel/Geom/mesh": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/top_edge_band/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/bottom_edge_band/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/left_edge_band/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/right_edge_band/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/lower_service_lip/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/front_lip_rivet_1/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/front_lip_rivet_2/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/front_lip_rivet_3/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/rear_lip_rivet_1/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/rear_lip_rivet_2/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/rear_lip_rivet_3/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/visual_016/Geom/GLTF": {
+      "name": "EmbeddedMaterial_001",
+      "color": [
+        0.13286831974983215,
+        0.13286831974983215,
+        0.13286831974983215
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8500000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/sign_housing/Visuals/visual_017/Geom/GLTF": {
+      "name": "EmbeddedMaterial_002",
+      "color": [
+        0.13286831974983215,
+        0.13286831974983215,
+        0.13286831974983215
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8500000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/lower_saddle/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/left_drop_channel/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/right_drop_channel/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/ceiling_mounting_plate/Geom": {
+      "name": "aged_bronze_edge_trim",
+      "color": [
+        0.012510408647358418,
+        0.005981059744954109,
+        0.003254215233027935
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/mount_fastener__0_120__0_038/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/mount_fastener__0_120__0_038_2/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/mount_fastener__0_120__0_038_3/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/ceiling_mount_bracket/Visuals/mount_fastener__0_120__0_038_4/Geom": {
+      "name": "darkened_steel_fasteners",
+      "color": [
+        0.0300741046667099,
+        0.021980946883559227,
+        0.015325203537940979
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    }
+  }
+}

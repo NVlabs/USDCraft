@@ -1,0 +1,566 @@
+{
+  "bodies": [
+    "/Asset/Links/padded_board",
+    "/Asset/Links/iron_rest",
+    "/Asset/Links/left_frame",
+    "/Asset/Links/left_foot_neg",
+    "/Asset/Links/left_foot_pos",
+    "/Asset/Links/left_lock_collar",
+    "/Asset/Links/right_frame",
+    "/Asset/Links/right_foot_neg",
+    "/Asset/Links/right_foot_pos",
+    "/Asset/Links/right_lock_collar"
+  ],
+  "joints": [
+    {
+      "name": "board_to_iron_rest",
+      "parent": "/Asset/Links/padded_board",
+      "child": "/Asset/Links/iron_rest",
+      "type": "fixed",
+      "pivot": [
+        0.6000000238418579,
+        0.8840000033378601,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "board_to_left_frame",
+      "parent": "/Asset/Links/padded_board",
+      "child": "/Asset/Links/left_frame",
+      "type": "revolute",
+      "pivot": [
+        -0.3199999928474426,
+        0.8399999737739563,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": -0.7800000024468849,
+      "upper": 0.10000000116728047
+    },
+    {
+      "name": "board_to_right_frame",
+      "parent": "/Asset/Links/padded_board",
+      "child": "/Asset/Links/right_frame",
+      "type": "revolute",
+      "pivot": [
+        0.3199999928474426,
+        0.8399999737739563,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": -0.10000000116728047,
+      "upper": 0.7800000024468849
+    },
+    {
+      "name": "left_frame_to_left_foot_neg",
+      "parent": "/Asset/Links/left_frame",
+      "child": "/Asset/Links/left_foot_neg",
+      "type": "fixed",
+      "pivot": [
+        0.4000000286102295,
+        0.01799997329711911,
+        0.11500000208616257
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "left_frame_to_left_foot_pos",
+      "parent": "/Asset/Links/left_frame",
+      "child": "/Asset/Links/left_foot_pos",
+      "type": "fixed",
+      "pivot": [
+        0.4000000286102295,
+        0.01799997329711911,
+        -0.11500000208616257
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "left_frame_to_left_lock_collar",
+      "parent": "/Asset/Links/left_frame",
+      "child": "/Asset/Links/left_lock_collar",
+      "type": "prismatic",
+      "pivot": [
+        -0.32,
+        0.84,
+        -0.23100000619888306
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.03500000014901161
+    },
+    {
+      "name": "right_frame_to_right_foot_neg",
+      "parent": "/Asset/Links/right_frame",
+      "child": "/Asset/Links/right_foot_neg",
+      "type": "fixed",
+      "pivot": [
+        -0.4000000286102295,
+        0.01799997329711911,
+        0.1599999964237213
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "right_frame_to_right_foot_pos",
+      "parent": "/Asset/Links/right_frame",
+      "child": "/Asset/Links/right_foot_pos",
+      "type": "fixed",
+      "pivot": [
+        -0.4000000286102295,
+        0.01799997329711911,
+        -0.1599999964237213
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "right_frame_to_right_lock_collar",
+      "parent": "/Asset/Links/right_frame",
+      "child": "/Asset/Links/right_lock_collar",
+      "type": "prismatic",
+      "pivot": [
+        0.32,
+        0.84,
+        -0.23100000619888306
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.03500000014901161
+    }
+  ],
+  "moving_joint_count": 4,
+  "floating": [
+    {
+      "body": "/Asset/Links/padded_board",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.446000000052154
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/padded_board/Visuals/board_shell/Geom/mesh": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/padded_work_surface/Geom/mesh": {
+      "name": "blue_heat_resistant_cover",
+      "color": [
+        0.0134117491543293,
+        0.11928018927574158,
+        0.2632734179496765
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/side_welt_neg/Geom": {
+      "name": "padded_edge",
+      "color": [
+        0.4064483046531677,
+        0.5704815983772278,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/side_welt_pos/Geom": {
+      "name": "padded_edge",
+      "color": [
+        0.4064483046531677,
+        0.5704815983772278,
+        0.6038273572921753
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8199999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/left_hinge_cradle/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/left_outer_hinge_support/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/left_index_bushing/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/left_index_disc/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/right_hinge_cradle/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/right_outer_hinge_support/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/right_index_bushing/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/padded_board/Visuals/right_index_disc/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/iron_rest/Visuals/rest_tray_plate/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/iron_rest/Visuals/rest_side_rail_neg/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/iron_rest/Visuals/rest_side_rail_pos/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/iron_rest/Visuals/rest_rear_rail/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_frame/Visuals/left_pivot_tube/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_frame/Visuals/left_rail_neg/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_frame/Visuals/left_rail_pos/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_frame/Visuals/left_mid_crossbar/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_frame/Visuals/left_lower_crossbar/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_foot_neg/Visuals/left_foot_neg_pad/Geom": {
+      "name": "black_antislip_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9399999976158142,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_foot_pos/Visuals/left_foot_pos_pad/Geom": {
+      "name": "black_antislip_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9399999976158142,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_lock_collar/Visuals/left_lock_disc/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_lock_collar/Visuals/left_release_grip/Geom": {
+      "name": "release_grip_red",
+      "color": [
+        0.47699978947639465,
+        0.004400849808007479,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.550000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_frame/Visuals/right_pivot_tube/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_frame/Visuals/right_rail_neg/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_frame/Visuals/right_rail_pos/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_frame/Visuals/right_mid_crossbar/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_frame/Visuals/right_lower_crossbar/Geom": {
+      "name": "satin_white_frame",
+      "color": [
+        0.6038273572921753,
+        0.6559306979179382,
+        0.6738595366477966
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_foot_neg/Visuals/right_foot_neg_pad/Geom": {
+      "name": "black_antislip_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9399999976158142,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_foot_pos/Visuals/right_foot_pos_pad/Geom": {
+      "name": "black_antislip_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.9399999976158142,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_lock_collar/Visuals/right_lock_disc/Geom": {
+      "name": "dark_index_hardware",
+      "color": [
+        0.0134117491543293,
+        0.017389101907610893,
+        0.01960664801299572
+      ],
+      "opacity": 1.0,
+      "roughness": 0.33000001311302185,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_lock_collar/Visuals/right_release_grip/Geom": {
+      "name": "release_grip_red",
+      "color": [
+        0.47699978947639465,
+        0.004400849808007479,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.550000011920929,
+      "ior": 1.45
+    }
+  }
+}

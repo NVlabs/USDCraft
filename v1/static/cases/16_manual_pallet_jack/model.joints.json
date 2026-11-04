@@ -1,0 +1,558 @@
+{
+  "bodies": [
+    "/Asset/Links/chassis_and_hydraulics",
+    "/Asset/Links/lifting_fork_carriage",
+    "/Asset/Links/steering_carriage",
+    "/Asset/Links/left_steer_wheel",
+    "/Asset/Links/right_steer_wheel",
+    "/Asset/Links/left_load_wheel",
+    "/Asset/Links/right_load_wheel",
+    "/Asset/Links/pivoting_steering_handle",
+    "/Asset/Links/control_lever"
+  ],
+  "joints": [
+    {
+      "name": "hydraulic_fork_lift",
+      "parent": "/Asset/Links/chassis_and_hydraulics",
+      "child": "/Asset/Links/lifting_fork_carriage",
+      "type": "prismatic",
+      "pivot": [
+        0.0,
+        0.03500000014901161,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.11999999731779099
+    },
+    {
+      "name": "steering_yaw",
+      "parent": "/Asset/Links/chassis_and_hydraulics",
+      "child": "/Asset/Links/steering_carriage",
+      "type": "revolute",
+      "pivot": [
+        -0.4300000071525574,
+        0.25,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "left_load_wheel_spin",
+      "parent": "/Asset/Links/chassis_and_hydraulics",
+      "child": "/Asset/Links/left_load_wheel",
+      "type": "revolute",
+      "pivot": [
+        0.8899999856948853,
+        0.035999998450279236,
+        -0.27000001072883606
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "right_load_wheel_spin",
+      "parent": "/Asset/Links/chassis_and_hydraulics",
+      "child": "/Asset/Links/right_load_wheel",
+      "type": "revolute",
+      "pivot": [
+        0.8899999856948853,
+        0.035999998450279236,
+        0.27000001072883606
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "left_steer_wheel_spin",
+      "parent": "/Asset/Links/steering_carriage",
+      "child": "/Asset/Links/left_steer_wheel",
+      "type": "revolute",
+      "pivot": [
+        -0.43,
+        0.10500000417232513,
+        -0.11500000208616257
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "right_steer_wheel_spin",
+      "parent": "/Asset/Links/steering_carriage",
+      "child": "/Asset/Links/right_steer_wheel",
+      "type": "revolute",
+      "pivot": [
+        -0.43,
+        0.10500000417232513,
+        0.11500000208616257
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "handle_pivot",
+      "parent": "/Asset/Links/steering_carriage",
+      "child": "/Asset/Links/pivoting_steering_handle",
+      "type": "revolute",
+      "pivot": [
+        -0.5050000029802322,
+        0.3500000014901161,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.5499999897752857
+    },
+    {
+      "name": "control_lever_select",
+      "parent": "/Asset/Links/pivoting_steering_handle",
+      "child": "/Asset/Links/control_lever",
+      "type": "revolute",
+      "pivot": [
+        -1.0849999833106994,
+        1.1,
+        -0.11999999731779099
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": -0.32000001039320025,
+      "upper": 0.32000001039320025
+    }
+  ],
+  "moving_joint_count": 8,
+  "floating": [
+    {
+      "body": "/Asset/Links/chassis_and_hydraulics",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 2.3175000031664967
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/chassis_and_hydraulics/Visuals/rear_crossmember/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/left_underfork_link/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/left_load_axle_bracket/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/right_underfork_link/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/right_load_axle_bracket/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/hydraulic_pump_housing/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/lift_ram/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/pump_top_cap/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/chassis_and_hydraulics/Visuals/elevated_steering_head_bridge/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/lift_crosshead/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/left_fork_deck/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/left_low_entry_nose/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/left_heel_gusset/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/right_fork_deck/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/right_low_entry_nose/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/lifting_fork_carriage/Visuals/right_heel_gusset/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/steering_carriage/Visuals/kingpin/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/steering_carriage/Visuals/steer_axle_yoke/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/steering_carriage/Visuals/drawbar_mount_ears/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/steering_carriage/Visuals/drawbar_mount_neck/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_steer_wheel/Visuals/left_steer_tire/Geom": {
+      "name": "orange_polyurethane",
+      "color": [
+        0.911407470703125,
+        0.05087608844041824,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_steer_wheel/Visuals/left_steer_hub/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_steer_wheel/Visuals/right_steer_tire/Geom": {
+      "name": "orange_polyurethane",
+      "color": [
+        0.911407470703125,
+        0.05087608844041824,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_steer_wheel/Visuals/right_steer_hub/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_load_wheel/Visuals/left_load_roller/Geom": {
+      "name": "orange_polyurethane",
+      "color": [
+        0.911407470703125,
+        0.05087608844041824,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_load_wheel/Visuals/left_load_axle/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_load_wheel/Visuals/right_load_roller/Geom": {
+      "name": "orange_polyurethane",
+      "color": [
+        0.911407470703125,
+        0.05087608844041824,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_load_wheel/Visuals/right_load_axle/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/pivoting_steering_handle/Visuals/drawbar_tube/Geom": {
+      "name": "safety_yellow_paint",
+      "color": [
+        0.8900054097175598,
+        0.2632734179496765,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/pivoting_steering_handle/Visuals/handle_pivot_boss/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/pivoting_steering_handle/Visuals/operator_cross_grip/Geom": {
+      "name": "black_rubber_grip",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0024767802096903324
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/pivoting_steering_handle/Visuals/grip_head_bridge/Geom": {
+      "name": "dark_powdercoat",
+      "color": [
+        0.006571403704583645,
+        0.007850573398172855,
+        0.009264310821890831
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/control_lever/Visuals/control_lever_pivot_pin/Geom": {
+      "name": "machined_steel",
+      "color": [
+        0.19599418342113495,
+        0.23302200436592102,
+        0.27383843064308167
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/control_lever/Visuals/lowering_control_paddle/Geom": {
+      "name": "red_control_plastic",
+      "color": [
+        0.47699978947639465,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/control_lever/Visuals/control_lever_stem/Geom": {
+      "name": "red_control_plastic",
+      "color": [
+        0.47699978947639465,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    }
+  }
+}

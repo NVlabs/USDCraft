@@ -1,0 +1,969 @@
+{
+ "bodies": [
+  "/Asset/Links/star_base",
+  "/Asset/Links/caster0",
+  "/Asset/Links/wheel0",
+  "/Asset/Links/caster1",
+  "/Asset/Links/wheel1",
+  "/Asset/Links/caster2",
+  "/Asset/Links/wheel2",
+  "/Asset/Links/caster3",
+  "/Asset/Links/wheel3",
+  "/Asset/Links/caster4",
+  "/Asset/Links/wheel4",
+  "/Asset/Links/lift_carriage",
+  "/Asset/Links/seat_assembly",
+  "/Asset/Links/arm_1",
+  "/Asset/Links/arm1"
+ ],
+ "joints": [
+  {
+   "name": "steer0",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/caster0",
+   "type": "revolute",
+   "pivot": [
+    -0.19599999487400055,
+    -0.49000000953674316,
+    0.2770000100135803
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "steer1",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/caster1",
+   "type": "revolute",
+   "pivot": [
+    0.19300000369548798,
+    -0.49000000953674316,
+    0.2770000100135803
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "steer2",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/caster2",
+   "type": "revolute",
+   "pivot": [
+    -0.31299999356269836,
+    -0.49000000953674316,
+    -0.10000000149011612
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "steer3",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/caster3",
+   "type": "revolute",
+   "pivot": [
+    0.3100000023841858,
+    -0.49000000953674316,
+    -0.10000000149011612
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "steer4",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/caster4",
+   "type": "revolute",
+   "pivot": [
+    -0.0020000000949949026,
+    -0.49000000953674316,
+    -0.3009999990463257
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "height",
+   "parent": "/Asset/Links/star_base",
+   "child": "/Asset/Links/lift_carriage",
+   "type": "prismatic",
+   "pivot": [
+    -0.0020000000949949026,
+    -0.30000001192092896,
+    0.009999999776482582
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": 0.0,
+   "upper": 0.09000000357627869
+  },
+  {
+   "name": "roll0",
+   "parent": "/Asset/Links/caster0",
+   "child": "/Asset/Links/wheel0",
+   "type": "revolute",
+   "pivot": [
+    -0.196,
+    -0.5409999990463257,
+    0.277
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "roll1",
+   "parent": "/Asset/Links/caster1",
+   "child": "/Asset/Links/wheel1",
+   "type": "revolute",
+   "pivot": [
+    0.193,
+    -0.5409999990463257,
+    0.277
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "roll2",
+   "parent": "/Asset/Links/caster2",
+   "child": "/Asset/Links/wheel2",
+   "type": "revolute",
+   "pivot": [
+    -0.313,
+    -0.5409999990463257,
+    -0.1
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "roll3",
+   "parent": "/Asset/Links/caster3",
+   "child": "/Asset/Links/wheel3",
+   "type": "revolute",
+   "pivot": [
+    0.31,
+    -0.5409999990463257,
+    -0.1
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "roll4",
+   "parent": "/Asset/Links/caster4",
+   "child": "/Asset/Links/wheel4",
+   "type": "revolute",
+   "pivot": [
+    -0.002,
+    -0.5409999990463257,
+    -0.301
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "swivel",
+   "parent": "/Asset/Links/lift_carriage",
+   "child": "/Asset/Links/seat_assembly",
+   "type": "revolute",
+   "pivot": [
+    9.499490256914545e-11,
+    1.1920928966180355e-08,
+    2.2351741811588166e-10
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": null,
+   "upper": null
+  },
+  {
+   "name": "arm_height_1",
+   "parent": "/Asset/Links/seat_assembly",
+   "child": "/Asset/Links/arm_1",
+   "type": "prismatic",
+   "pivot": [
+    -0.2849999964237213,
+    0.14399999380111694,
+    0.10400000214576721
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": 0.0,
+   "upper": 0.05999999865889549
+  },
+  {
+   "name": "arm_height1",
+   "parent": "/Asset/Links/seat_assembly",
+   "child": "/Asset/Links/arm1",
+   "type": "prismatic",
+   "pivot": [
+    0.2809999883174896,
+    0.14399999380111694,
+    0.10400000214576721
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.9999999999999993,
+    0.0
+   ],
+   "lower": 0.0,
+   "upper": 0.05999999865889549
+  }
+ ],
+ "moving_joint_count": 14,
+ "floating": [
+  {
+   "body": "/Asset/Links/star_base",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 1.1520000090644367
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/star_base/Visuals/hub/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/star_base/Visuals/spoke0/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/star_base/Visuals/spoke1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/star_base/Visuals/spoke2/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/star_base/Visuals/spoke3/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/star_base/Visuals/spoke4/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/caster0/Visuals/fork0/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel0/Visuals/tire0__1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel0/Visuals/tire0_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel0/Visuals/axle0/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/caster1/Visuals/fork1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel1/Visuals/tire1__1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel1/Visuals/tire1_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel1/Visuals/axle1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/caster2/Visuals/fork2/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel2/Visuals/tire2__1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel2/Visuals/tire2_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel2/Visuals/axle2/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/caster3/Visuals/fork3/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel3/Visuals/tire3__1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel3/Visuals/tire3_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel3/Visuals/axle3/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/caster4/Visuals/fork4/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel4/Visuals/tire4__1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel4/Visuals/tire4_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/wheel4/Visuals/axle4/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/lift_carriage/Visuals/piston/Geom": {
+   "name": "piston_chrome",
+   "color": [
+    0.38005632162094116,
+    0.4064483046531677,
+    0.4200332760810852
+   ],
+   "opacity": 1.0,
+   "roughness": 0.20000000298023224,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/cushion/Geom/mesh": {
+   "name": "pale_grey_cushion",
+   "color": [
+    0.38005632162094116,
+    0.47699978947639465,
+    0.5225215554237366
+   ],
+   "opacity": 1.0,
+   "roughness": 0.9200000166893005,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/seat_pan/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/mechanism/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_mount/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/arm_foot_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/arm_socket_1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/arm_foot1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/arm_socket1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_0/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_2/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_3/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_4/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_5/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_6/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail_1_7/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_0/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_2/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_3/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_4/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_5/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_6/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_rail1_7/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_cross0/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/back_cross8/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/mesh_back/Geom/mesh": {
+   "name": "silver_grey_weave",
+   "color": [
+    0.1473190039396286,
+    0.17886750400066376,
+    0.17886750400066376
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/release_stalk_1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/release_paddle_1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/release_stalk1/Geom": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/seat_assembly/Visuals/release_paddle1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/arm_1/Visuals/stem_1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/arm_1/Visuals/pad_1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/arm1/Visuals/stem1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  },
+  "/Asset/Links/arm1/Visuals/pad1/Geom/mesh": {
+   "name": "graphite",
+   "color": [
+    0.001934984466060996,
+    0.0023219813592731953,
+    0.0024767802096903324
+   ],
+   "opacity": 1.0,
+   "roughness": 0.6200000047683716,
+   "ior": 1.45
+  }
+ }
+}

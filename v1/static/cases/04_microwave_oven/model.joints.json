@@ -1,0 +1,860 @@
+{
+  "bodies": [
+    "/Asset/Links/microwave_body",
+    "/Asset/Links/support_feet",
+    "/Asset/Links/front_door",
+    "/Asset/Links/glass_turntable",
+    "/Asset/Links/power_selector_knob",
+    "/Asset/Links/timer_knob",
+    "/Asset/Links/power_plug",
+    "/Asset/Links/power_cord"
+  ],
+  "joints": [
+    {
+      "name": "body_to_support_feet",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/support_feet",
+      "type": "fixed",
+      "pivot": [
+        -0.2199999988079071,
+        0.014000000432133675,
+        0.1550000011920929
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "body_to_front_door",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/front_door",
+      "type": "revolute",
+      "pivot": [
+        -0.25200000405311584,
+        0.164000004529953,
+        0.21799999475479126
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.8325957145940461
+    },
+    {
+      "name": "body_to_turntable",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/glass_turntable",
+      "type": "revolute",
+      "pivot": [
+        -0.0689999982714653,
+        0.06499999761581421,
+        0.02500000037252903
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "body_to_power_selector_knob",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/power_selector_knob",
+      "type": "revolute",
+      "pivot": [
+        0.1850000023841858,
+        0.21299999952316284,
+        0.2070000022649765
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": -2.356194490192345,
+      "upper": 2.356194490192345
+    },
+    {
+      "name": "body_to_timer_knob",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/timer_knob",
+      "type": "revolute",
+      "pivot": [
+        0.1850000023841858,
+        0.1080000028014183,
+        0.2070000022649765
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        -0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 5.235987755982989
+    },
+    {
+      "name": "body_to_power_cord",
+      "parent": "/Asset/Links/microwave_body",
+      "child": "/Asset/Links/power_cord",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    }
+  ],
+  "moving_joint_count": 4,
+  "floating": [
+    {
+      "body": "/Asset/Links/power_plug",
+      "pivot": [
+        0.43,
+        0.011999999999999997,
+        -0.305
+      ],
+      "extent": 0.07400000064074991
+    },
+    {
+      "body": "/Asset/Links/microwave_body",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 0.6954639926254749
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/microwave_body/Visuals/outer_top_shell/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6920710802078247
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/outer_bottom_shell/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6920710802078247
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/outer_left_shell/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6920710802078247
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/outer_right_shell/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6920710802078247
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/outer_back_shell/Geom": {
+      "name": "warm_white_enamel",
+      "color": [
+        0.6382831931114197,
+        0.6738595366477966,
+        0.6920710802078247
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/front_left_jamb/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/front_top_rail/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/front_lower_rail/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/front_control_separator/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/control_fascia/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/cavity_floor/Geom": {
+      "name": "dark_cavity_metal",
+      "color": [
+        0.021980946883559227,
+        0.02451501414179802,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/cavity_ceiling/Geom": {
+      "name": "dark_cavity_metal",
+      "color": [
+        0.021980946883559227,
+        0.02451501414179802,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/inner_left_wall/Geom": {
+      "name": "dark_cavity_metal",
+      "color": [
+        0.021980946883559227,
+        0.02451501414179802,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/inner_right_wall/Geom": {
+      "name": "dark_cavity_metal",
+      "color": [
+        0.021980946883559227,
+        0.02451501414179802,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/cavity_back_wall/Geom": {
+      "name": "dark_cavity_metal",
+      "color": [
+        0.021980946883559227,
+        0.02451501414179802,
+        0.027211781591176987
+      ],
+      "opacity": 1.0,
+      "roughness": 0.4300000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_1/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_2/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_3/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_4/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_5/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/side_vent_slot_6/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/selector_dial_ring/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/timer_dial_ring/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/power_indicator/Geom": {
+      "name": "indicator_amber",
+      "color": [
+        0.8275708556175232,
+        0.07323895394802094,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/microwave_body/Visuals/cord_outlet_collar/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/support_feet/Visuals/front_left_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/support_feet/Visuals/front_right_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/support_feet/Visuals/rear_left_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/support_feet/Visuals/rear_right_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_left_stile/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_right_stile/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_top_rail/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_lower_rail/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_window_glass/Geom": {
+      "name": "smoked_safety_glass",
+      "color": [
+        0.19599418342113495,
+        0.22341398894786835,
+        0.2529500722885132
+      ],
+      "opacity": 0.23999999463558197,
+      "roughness": 0.07000000029802322,
+      "ior": 1.4500000476837158
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_057/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_100/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_143/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_187/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_231/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_274/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_vertical_0_317/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_horizontal__0_078/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_horizontal__0_039/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_horizontal__0_000/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_horizontal__0_039_2/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/window_screen_horizontal__0_078_2/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/hinge_barrel/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/handle_support_1/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/handle_support_2/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/door_handle_grip/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/handle_lower_cap/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/front_door/Visuals/handle_upper_cap/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/glass_turntable/Visuals/platter_disc/Geom": {
+      "name": "clear_turntable_glass",
+      "color": [
+        0.5382355451583862,
+        0.6738595366477966,
+        0.7105664610862732
+      ],
+      "opacity": 0.11999999731779099,
+      "roughness": 0.05999999865889549,
+      "ior": 1.4500000476837158
+    },
+    "/Asset/Links/glass_turntable/Visuals/platter_raised_rim/Geom": {
+      "name": "clear_turntable_glass",
+      "color": [
+        0.5382355451583862,
+        0.6738595366477966,
+        0.7105664610862732
+      ],
+      "opacity": 0.11999999731779099,
+      "roughness": 0.05999999865889549,
+      "ior": 1.4500000476837158
+    },
+    "/Asset/Links/glass_turntable/Visuals/turntable_coupler/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_selector_knob/Visuals/power_selector_knob_shell/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_selector_knob/Visuals/power_selector_knob_skirt/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_selector_knob/Visuals/power_selector_knob_pointer/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/timer_knob/Visuals/timer_knob_shell/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/timer_knob/Visuals/timer_knob_skirt/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/timer_knob/Visuals/timer_knob_pointer/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_cord/Visuals/power_cord_sheath/Geom/mesh": {
+      "name": "black_rubber",
+      "color": [
+        0.001934984466060996,
+        0.0021671827416867018,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_plug/Visuals/plug_body/Geom": {
+      "name": "black_glass_trim",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_plug/Visuals/plug_pin_1/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    },
+    "/Asset/Links/power_plug/Visuals/plug_pin_2/Geom": {
+      "name": "brushed_stainless",
+      "color": [
+        0.3931231200695038,
+        0.4200332760810852,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3100000023841858,
+      "ior": 1.45
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "bodies": [
+    "/Asset/Links/bookshelf_carcass",
+    "/Asset/Links/drawer_1",
+    "/Asset/Links/drawer_2"
+  ],
+  "joints": [
+    {
+      "name": "carcass_to_drawer_1",
+      "parent": "/Asset/Links/bookshelf_carcass",
+      "child": "/Asset/Links/drawer_1",
+      "type": "prismatic",
+      "pivot": [
+        -0.40700000524520874,
+        0.1120000034570694,
+        0.1550000011920929
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.20000000298023224
+    },
+    {
+      "name": "carcass_to_drawer_2",
+      "parent": "/Asset/Links/bookshelf_carcass",
+      "child": "/Asset/Links/drawer_2",
+      "type": "prismatic",
+      "pivot": [
+        0.40700000524520874,
+        0.1120000034570694,
+        0.1550000011920929
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 0.20000000298023224
+    }
+  ],
+  "moving_joint_count": 2,
+  "floating": [
+    {
+      "body": "/Asset/Links/bookshelf_carcass",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.8600000309944154
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/bookshelf_carcass/Visuals/left_side/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/right_side/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/top_cap/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/drawer_floor/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/cubby_floor/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/back_panel/Geom": {
+      "name": "shadowed_walnut_back",
+      "color": [
+        0.07323895394802094,
+        0.014349875040352345,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6000000238418579,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/front_kick/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/drawer_center_stile/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/drawer_runner_1/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/drawer_runner_2/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/divider_left/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/divider_right/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/left_shelf_1/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/left_shelf_2/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/left_shelf_3/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/left_shelf_4/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/center_shelf_1/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/center_shelf_2/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/center_shelf_3/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/center_shelf_4/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/right_shelf_1/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/right_shelf_2/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/right_shelf_3/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/bookshelf_carcass/Visuals/right_shelf_4/Geom": {
+      "name": "warm_walnut_lacquer",
+      "color": [
+        0.15487249195575714,
+        0.03310476616024971,
+        0.006571403704583645
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/drawer_front/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/drawer_bottom/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/drawer_back/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/drawer_side_1/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/drawer_side_2/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/knob_stem/Geom": {
+      "name": "blackened_metal_knob",
+      "color": [
+        0.006571403704583645,
+        0.005422868765890598,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_1/Visuals/knob_grip/Geom": {
+      "name": "blackened_metal_knob",
+      "color": [
+        0.006571403704583645,
+        0.005422868765890598,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/drawer_front/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/drawer_bottom/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/drawer_back/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/drawer_side_1/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/drawer_side_2/Geom": {
+      "name": "walnut_edge_and_drawer_front",
+      "color": [
+        0.23302200436592102,
+        0.059253521263599396,
+        0.010816383175551891
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/knob_stem/Geom": {
+      "name": "blackened_metal_knob",
+      "color": [
+        0.006571403704583645,
+        0.005422868765890598,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    },
+    "/Asset/Links/drawer_2/Visuals/knob_grip/Geom": {
+      "name": "blackened_metal_knob",
+      "color": [
+        0.006571403704583645,
+        0.005422868765890598,
+        0.004400849808007479
+      ],
+      "opacity": 1.0,
+      "roughness": 0.30000001192092896,
+      "ior": 1.45
+    }
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "bodies": [
+    "/Asset/Links/tower_frame",
+    "/Asset/Links/swing_frame",
+    "/Asset/Links/slide",
+    "/Asset/Links/swing_carrier_1",
+    "/Asset/Links/swing_carrier_2",
+    "/Asset/Links/swing_carrier_3"
+  ],
+  "joints": [
+    {
+      "name": "tower_to_swing_frame",
+      "parent": "/Asset/Links/tower_frame",
+      "child": "/Asset/Links/swing_frame",
+      "type": "fixed",
+      "pivot": [
+        -0.8799999952316284,
+        2.450000047683716,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "tower_to_slide",
+      "parent": "/Asset/Links/tower_frame",
+      "child": "/Asset/Links/slide",
+      "type": "fixed",
+      "pivot": [
+        -1.5499999523162842,
+        1.4700000286102295,
+        -0.675000011920929
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "swing_hinge_1",
+      "parent": "/Asset/Links/swing_frame",
+      "child": "/Asset/Links/swing_carrier_1",
+      "type": "revolute",
+      "pivot": [
+        -0.05000001668930054,
+        2.3400000005960466,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": -0.8726646259971648,
+      "upper": 0.8726646259971648
+    },
+    {
+      "name": "swing_hinge_2",
+      "parent": "/Asset/Links/swing_frame",
+      "child": "/Asset/Links/swing_carrier_2",
+      "type": "revolute",
+      "pivot": [
+        0.8300000381469727,
+        2.3400000005960466,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": -0.8726646259971648,
+      "upper": 0.8726646259971648
+    },
+    {
+      "name": "swing_hinge_3",
+      "parent": "/Asset/Links/swing_frame",
+      "child": "/Asset/Links/swing_carrier_3",
+      "type": "revolute",
+      "pivot": [
+        1.7099999141693116,
+        2.3400000005960466,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": -0.8726646259971648,
+      "upper": 0.8726646259971648
+    }
+  ],
+  "moving_joint_count": 3,
+  "floating": [
+    {
+      "body": "/Asset/Links/tower_frame",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 5.35363371507664
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/tower_frame/Visuals/tower_post__2_18__0_61/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/tower_post__2_18__0_61_2/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/tower_post__0_92__0_61/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/tower_post__0_92__0_61_2/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/deck/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/lower_tie_y__0_61/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/lower_tie_y__0_61_2/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/lower_tie_x__2_18/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/lower_tie_x__0_92/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/front_cross_brace/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rear_cross_brace/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/left_guard_1_78/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/right_guard_1_78/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rear_left_guard_1_78/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rear_right_guard_1_78/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/left_guard_2_15/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/right_guard_2_15/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rear_left_guard_2_15/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rear_right_guard_2_15/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/tower_header/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rafter_left__0_58/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rafter_right__0_58/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rafter_left__0_58_2/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/rafter_right__0_58_2/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/roof_left/Geom": {
+      "name": "warm_roof_cedar",
+      "color": [
+        0.31854677200317383,
+        0.06372379511594772,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6299999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/roof_right/Geom": {
+      "name": "warm_roof_cedar",
+      "color": [
+        0.31854677200317383,
+        0.06372379511594772,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6299999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/roof_ridge/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_wall/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_hold_1/Geom": {
+      "name": "hold_red",
+      "color": [
+        0.6382831931114197,
+        0.010022825561463833,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_hold_2/Geom": {
+      "name": "hold_yellow",
+      "color": [
+        0.8900054097175598,
+        0.33034372329711914,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_hold_3/Geom": {
+      "name": "hold_blue",
+      "color": [
+        0.004896310158073902,
+        0.07323895394802094,
+        0.4479884207248688
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_hold_4/Geom": {
+      "name": "hold_green",
+      "color": [
+        0.010022825561463833,
+        0.2632734179496765,
+        0.0300741046667099
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/climbing_hold_5/Geom": {
+      "name": "hold_yellow",
+      "color": [
+        0.8900054097175598,
+        0.33034372329711914,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6200000047683716,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_left_rail/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_right_rail/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_1/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_2/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_3/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_4/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_5/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/ladder_rung_6/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/left_handle_mount_1_62/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/left_handle_mount_2_12/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/left_grab_handle/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/right_handle_mount_1_62/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/right_handle_mount_2_12/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/tower_frame/Visuals/right_grab_handle/Geom": {
+      "name": "safety_yellow",
+      "color": [
+        0.911407470703125,
+        0.36724647879600525,
+        0.0023219813592731953
+      ],
+      "opacity": 1.0,
+      "roughness": 0.46000000834465027,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/top_beam/Geom": {
+      "name": "end_grain_and_dark_wood",
+      "color": [
+        0.10048151016235352,
+        0.017389101907610893,
+        0.0035010159481316805
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5799999833106995,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/far_front_leg/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/far_rear_leg/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/far_ground_spreader/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/front_knee_brace/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/rear_knee_brace/Geom": {
+      "name": "sealed_cedar",
+      "color": [
+        0.23302200436592102,
+        0.05087608844041824,
+        0.00854038167744875
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/end_bracket__0_10/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_frame/Visuals/end_bracket__0_10_2/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/slide/Visuals/slide_bed/Geom/mesh": {
+      "name": "forest_green_hdpe",
+      "color": [
+        0.0027089782524853945,
+        0.043233636766672134,
+        0.011645430698990822
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/slide/Visuals/slide_left_rail/Geom/mesh": {
+      "name": "dark_green_hdpe",
+      "color": [
+        0.001934984466060996,
+        0.015325203537940979,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5699999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/slide/Visuals/slide_right_rail/Geom/mesh": {
+      "name": "dark_green_hdpe",
+      "color": [
+        0.001934984466060996,
+        0.015325203537940979,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5699999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/slide/Visuals/slide_left_foot/Geom": {
+      "name": "dark_green_hdpe",
+      "color": [
+        0.001934984466060996,
+        0.015325203537940979,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5699999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/slide/Visuals/slide_right_foot/Geom": {
+      "name": "dark_green_hdpe",
+      "color": [
+        0.001934984466060996,
+        0.015325203537940979,
+        0.005981059744954109
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5699999928474426,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/seat/Geom": {
+      "name": "forest_green_hdpe",
+      "color": [
+        0.0027089782524853945,
+        0.043233636766672134,
+        0.011645430698990822
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/pivot_axle/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/left_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/left_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/right_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_1/Visuals/right_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/seat/Geom": {
+      "name": "forest_green_hdpe",
+      "color": [
+        0.0027089782524853945,
+        0.043233636766672134,
+        0.011645430698990822
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/pivot_axle/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/left_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/left_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/right_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_2/Visuals/right_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/seat/Geom": {
+      "name": "forest_green_hdpe",
+      "color": [
+        0.0027089782524853945,
+        0.043233636766672134,
+        0.011645430698990822
+      ],
+      "opacity": 1.0,
+      "roughness": 0.5199999809265137,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/pivot_axle/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/left_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/left_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/right_rigid_hanger/Geom": {
+      "name": "galvanized_steel",
+      "color": [
+        0.23302200436592102,
+        0.27383843064308167,
+        0.295699805021286
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/swing_carrier_3/Visuals/right_bushing/Geom": {
+      "name": "black_bushing",
+      "color": [
+        0.0027089782524853945,
+        0.0030959751456975937,
+        0.0030959751456975937
+      ],
+      "opacity": 1.0,
+      "roughness": 0.6800000071525574,
+      "ior": 1.45
+    }
+  }
+}

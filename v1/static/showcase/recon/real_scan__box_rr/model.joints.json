@@ -1,0 +1,218 @@
+{
+ "bodies": [
+  "/Asset/Links/carton",
+  "/Asset/Links/left",
+  "/Asset/Links/right",
+  "/Asset/Links/back",
+  "/Asset/Links/front"
+ ],
+ "joints": [
+  {
+   "name": "left_crease",
+   "parent": "/Asset/Links/carton",
+   "child": "/Asset/Links/left",
+   "type": "revolute",
+   "pivot": [
+    -0.08699999749660492,
+    0.16300000250339508,
+    -0.009999999776482582
+   ],
+   "axis": [
+    -3.689964286745441e-08,
+    0.0,
+    0.9999999999999993
+   ],
+   "lower": -1.78166156032379,
+   "upper": 0.9599310885968813
+  },
+  {
+   "name": "right_crease",
+   "parent": "/Asset/Links/carton",
+   "child": "/Asset/Links/right",
+   "type": "revolute",
+   "pivot": [
+    0.07699999958276749,
+    0.16699999570846558,
+    -0.009999999776482582
+   ],
+   "axis": [
+    -4.2947815902093046e-08,
+    0.0,
+    -0.9999999999999991
+   ],
+   "lower": -3.3000981427169114,
+   "upper": 0.0
+  },
+  {
+   "name": "back_crease",
+   "parent": "/Asset/Links/carton",
+   "child": "/Asset/Links/back",
+   "type": "revolute",
+   "pivot": [
+    -0.009999999776482582,
+    0.164000004529953,
+    -0.13199999928474426
+   ],
+   "axis": [
+    -1.0,
+    1.5218282387532394e-16,
+    -2.053288552702841e-16
+   ],
+   "lower": -2.303834612632515,
+   "upper": 0.8377580409572782
+  },
+  {
+   "name": "front_crease",
+   "parent": "/Asset/Links/carton",
+   "child": "/Asset/Links/front",
+   "type": "revolute",
+   "pivot": [
+    -0.006000000052154064,
+    0.16500000655651093,
+    0.1120000034570694
+   ],
+   "axis": [
+    1.0,
+    1.125782247221045e-16,
+    -1.2153204517229477e-17
+   ],
+   "lower": -2.530727415391778,
+   "upper": 0.6108652381980153
+  }
+ ],
+ "moving_joint_count": 4,
+ "floating": [
+  {
+   "body": "/Asset/Links/carton",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.37952229680745353
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/carton/Visuals/left_wall/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/right_wall/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/front_wall/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/back_wall/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/bottom/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/bottom_fold_a/Geom": {
+   "name": "inner_kraft",
+   "color": [
+    0.295699805021286,
+    0.22341398894786835,
+    0.10653922706842422
+   ],
+   "opacity": 1.0,
+   "roughness": 1.0,
+   "ior": 1.45
+  },
+  "/Asset/Links/carton/Visuals/bottom_fold_b/Geom": {
+   "name": "inner_kraft",
+   "color": [
+    0.295699805021286,
+    0.22341398894786835,
+    0.10653922706842422
+   ],
+   "opacity": 1.0,
+   "roughness": 1.0,
+   "ior": 1.45
+  },
+  "/Asset/Links/left/Visuals/panel/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/right/Visuals/panel/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/back/Visuals/panel/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  },
+  "/Asset/Links/front/Visuals/panel/Geom": {
+   "name": "kraft",
+   "color": [
+    0.23302200436592102,
+    0.17472800612449646,
+    0.07828831672668457
+   ],
+   "opacity": 1.0,
+   "roughness": 0.949999988079071,
+   "ior": 1.45
+  }
+ }
+}

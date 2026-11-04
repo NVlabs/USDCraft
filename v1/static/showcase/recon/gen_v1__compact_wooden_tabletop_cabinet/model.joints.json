@@ -1,0 +1,205 @@
+{
+ "bodies": [
+  "/Asset/Links/cabinet",
+  "/Asset/Links/drawer"
+ ],
+ "joints": [
+  {
+   "name": "drawer_slide",
+   "parent": "/Asset/Links/cabinet",
+   "child": "/Asset/Links/drawer",
+   "type": "prismatic",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.0,
+    -0.9999999999999993
+   ],
+   "lower": -0.05999999865889549,
+   "upper": 0.10300000011920929
+  }
+ ],
+ "moving_joint_count": 1,
+ "floating": [
+  {
+   "body": "/Asset/Links/cabinet",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.36450000205636024
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/cabinet/Visuals/top/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/bottom/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/left/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/right/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/back/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/left_guide/Geom": {
+   "name": "guide_steel",
+   "color": [
+    0.06372379511594772,
+    0.06838485598564148,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3499999940395355,
+   "ior": 1.45
+  },
+  "/Asset/Links/cabinet/Visuals/right_guide/Geom": {
+   "name": "guide_steel",
+   "color": [
+    0.06372379511594772,
+    0.06838485598564148,
+    0.07323895394802094
+   ],
+   "opacity": 1.0,
+   "roughness": 0.3499999940395355,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/left_liner/Geom": {
+   "name": "drawer_birch",
+   "color": [
+    0.5382355451583862,
+    0.21404114365577698,
+    0.05497173219919205
+   ],
+   "opacity": 1.0,
+   "roughness": 0.5799999833106995,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/right_liner/Geom": {
+   "name": "drawer_birch",
+   "color": [
+    0.5382355451583862,
+    0.21404114365577698,
+    0.05497173219919205
+   ],
+   "opacity": 1.0,
+   "roughness": 0.5799999833106995,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/front/Geom": {
+   "name": "brown_lacquer",
+   "color": [
+    0.08353512734174728,
+    0.02451501414179802,
+    0.0134117491543293
+   ],
+   "opacity": 1.0,
+   "roughness": 0.47999998927116394,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/rear_liner/Geom": {
+   "name": "drawer_birch",
+   "color": [
+    0.5382355451583862,
+    0.21404114365577698,
+    0.05497173219919205
+   ],
+   "opacity": 1.0,
+   "roughness": 0.5799999833106995,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/floor/Geom": {
+   "name": "drawer_birch",
+   "color": [
+    0.5382355451583862,
+    0.21404114365577698,
+    0.05497173219919205
+   ],
+   "opacity": 1.0,
+   "roughness": 0.5799999833106995,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/pull_post__0_045/Geom": {
+   "name": "black_pull",
+   "color": [
+    0.001934984466060996,
+    0.0021671827416867018,
+    0.0023219813592731953
+   ],
+   "opacity": 1.0,
+   "roughness": 0.30000001192092896,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/pull_post_0_045/Geom": {
+   "name": "black_pull",
+   "color": [
+    0.001934984466060996,
+    0.0021671827416867018,
+    0.0023219813592731953
+   ],
+   "opacity": 1.0,
+   "roughness": 0.30000001192092896,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/pull_bar/Geom": {
+   "name": "black_pull",
+   "color": [
+    0.001934984466060996,
+    0.0021671827416867018,
+    0.0023219813592731953
+   ],
+   "opacity": 1.0,
+   "roughness": 0.30000001192092896,
+   "ior": 1.45
+  }
+ }
+}

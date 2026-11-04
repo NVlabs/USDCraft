@@ -1,0 +1,150 @@
+{
+ "bodies": [
+  "/Asset/Links/housing",
+  "/Asset/Links/drawer"
+ ],
+ "joints": [
+  {
+   "name": "drawer_slide",
+   "parent": "/Asset/Links/housing",
+   "child": "/Asset/Links/drawer",
+   "type": "prismatic",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    3.422854295029558e-08,
+    0.0,
+    0.9999999999999993
+   ],
+   "lower": 0.0,
+   "upper": 0.14000000059604645
+  }
+ ],
+ "moving_joint_count": 1,
+ "floating": [
+  {
+   "body": "/Asset/Links/housing",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "extent": 0.22800000040978194
+  }
+ ],
+ "appearance": {
+  "/Asset/Links/housing/Visuals/shell/Geom/housing_shell_obj": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/housing/Visuals/runner_left/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/housing/Visuals/runner_right/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/front/Geom/drawer_front_obj": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/floor/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/left_wall/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/right_wall/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/back_wall/Geom": {
+   "name": "burgundy",
+   "color": [
+    0.07323895394802094,
+    0.006571403704583645,
+    0.010816383175551891
+   ],
+   "opacity": 1.0,
+   "roughness": 0.4000000059604645,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/pull_neck/Geom": {
+   "name": "blue_pull",
+   "color": [
+    0.001934984466060996,
+    0.0134117491543293,
+    0.05087608844041824
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25,
+   "ior": 1.45
+  },
+  "/Asset/Links/drawer/Visuals/pull/Geom": {
+   "name": "blue_pull",
+   "color": [
+    0.001934984466060996,
+    0.0134117491543293,
+    0.05087608844041824
+   ],
+   "opacity": 1.0,
+   "roughness": 0.25,
+   "ior": 1.45
+  }
+ }
+}

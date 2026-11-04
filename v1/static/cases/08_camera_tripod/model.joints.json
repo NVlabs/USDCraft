@@ -1,0 +1,565 @@
+{
+  "bodies": [
+    "/Asset/Links/tripod_support",
+    "/Asset/Links/pan_yoke",
+    "/Asset/Links/tilt_platform"
+  ],
+  "joints": [
+    {
+      "name": "support_to_pan",
+      "parent": "/Asset/Links/tripod_support",
+      "child": "/Asset/Links/pan_yoke",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        1.2799999713897705,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": null,
+      "upper": null
+    },
+    {
+      "name": "pan_to_tilt",
+      "parent": "/Asset/Links/pan_yoke",
+      "child": "/Asset/Links/tilt_platform",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        1.4300000059604645,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": -1.2217304763960306,
+      "upper": 1.2217304763960306
+    }
+  ],
+  "moving_joint_count": 2,
+  "floating": [
+    {
+      "body": "/Asset/Links/tripod_support",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.557000000644475
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/tripod_support/Visuals/leg_1_upper_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_1_lower_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_1_upper_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_1_lower_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_1_telescoping_clamp/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_1_rubber_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/spreader_arm_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/upper_leg_hinge_1/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_upper_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_lower_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_upper_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_lower_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_telescoping_clamp/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_2_rubber_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/spreader_arm_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/upper_leg_hinge_2/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_upper_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_lower_tube_1/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_upper_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_lower_tube_2/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_telescoping_clamp/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/leg_3_rubber_foot/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/spreader_arm_3/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/upper_leg_hinge_3/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/spreader_center_hub/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/head_bowl_top/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tripod_support/Visuals/bowl_lower_neck/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/pan_bearing_ring/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/pan_body/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/left_yoke_cheek/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/right_yoke_cheek/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/pan_lock_stem/Geom": {
+      "name": "brushed_mounting_metal",
+      "color": [
+        0.15487249195575714,
+        0.17886750400066376,
+        0.2049017697572708
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/pan_lock_knob/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/pan_yoke/Visuals/bubble_level/Geom": {
+      "name": "level_fluid_accent",
+      "color": [
+        0.3931231200695038,
+        0.5704815983772278,
+        0.021980946883559227
+      ],
+      "opacity": 0.75,
+      "roughness": 0.2199999988079071,
+      "ior": 1.4500000476837158
+    },
+    "/Asset/Links/tilt_platform/Visuals/tilt_axle/Geom": {
+      "name": "brushed_mounting_metal",
+      "color": [
+        0.15487249195575714,
+        0.17886750400066376,
+        0.2049017697572708
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/tilt_cradle/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/camera_platform/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/quick_release_plate/Geom": {
+      "name": "brushed_mounting_metal",
+      "color": [
+        0.15487249195575714,
+        0.17886750400066376,
+        0.2049017697572708
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/camera_grip_strip_left/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/camera_grip_strip_right/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/camera_mount_screw/Geom": {
+      "name": "brushed_mounting_metal",
+      "color": [
+        0.15487249195575714,
+        0.17886750400066376,
+        0.2049017697572708
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/handle_socket/Geom": {
+      "name": "charcoal_cast_metal",
+      "color": [
+        0.007194409146904945,
+        0.00854038167744875,
+        0.010022825561463833
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/pan_handle_tube/Geom": {
+      "name": "black_anodized_aluminum",
+      "color": [
+        0.001934984466060996,
+        0.0023219813592731953,
+        0.0027089782524853945
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3400000035762787,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/pan_handle_grip/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/tilt_lock_socket/Geom": {
+      "name": "brushed_mounting_metal",
+      "color": [
+        0.15487249195575714,
+        0.17886750400066376,
+        0.2049017697572708
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2800000011920929,
+      "ior": 1.45
+    },
+    "/Asset/Links/tilt_platform/Visuals/tilt_lock_knob/Geom": {
+      "name": "black_rubber",
+      "color": [
+        0.0013931888388469815,
+        0.0015479875728487968,
+        0.001702786423265934
+      ],
+      "opacity": 1.0,
+      "roughness": 0.8999999761581421,
+      "ior": 1.45
+    }
+  }
+}

@@ -1,0 +1,773 @@
+{
+  "bodies": [
+    "/Asset/Links/spacecraft_mounting_pedestal",
+    "/Asset/Links/azimuth_yoke",
+    "/Asset/Links/rigid_center_dish",
+    "/Asset/Links/left_reflector_petal",
+    "/Asset/Links/right_reflector_petal",
+    "/Asset/Links/central_feed_and_struts",
+    "/Asset/Links/rf_service_cable"
+  ],
+  "joints": [
+    {
+      "name": "pedestal_to_azimuth",
+      "parent": "/Asset/Links/spacecraft_mounting_pedestal",
+      "child": "/Asset/Links/azimuth_yoke",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        0.6600000262260437,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": -3.0543261909900767,
+      "upper": 3.0543261909900767
+    },
+    {
+      "name": "azimuth_to_elevation",
+      "parent": "/Asset/Links/azimuth_yoke",
+      "child": "/Asset/Links/rigid_center_dish",
+      "type": "revolute",
+      "pivot": [
+        0.0,
+        1.0000000035762788,
+        0.0
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.0,
+        0.9999999999999993
+      ],
+      "lower": 0.0,
+      "upper": 1.2217304763960306
+    },
+    {
+      "name": "center_to_left_petal",
+      "parent": "/Asset/Links/rigid_center_dish",
+      "child": "/Asset/Links/left_reflector_petal",
+      "type": "revolute",
+      "pivot": [
+        0.6343749761581421,
+        1.0,
+        0.2750000059604645
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        -0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.3962634015954636
+    },
+    {
+      "name": "center_to_right_petal",
+      "parent": "/Asset/Links/rigid_center_dish",
+      "child": "/Asset/Links/right_reflector_petal",
+      "type": "revolute",
+      "pivot": [
+        0.6343749761581421,
+        1.0,
+        -0.2750000059604645
+      ],
+      "axis": [
+        3.422854295029558e-08,
+        0.9999999999999993,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 1.3962634015954636
+    },
+    {
+      "name": "center_to_feed_assembly",
+      "parent": "/Asset/Links/rigid_center_dish",
+      "child": "/Asset/Links/central_feed_and_struts",
+      "type": "fixed",
+      "pivot": [
+        0.6000000238418579,
+        1.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "name": "center_to_rf_service_cable",
+      "parent": "/Asset/Links/rigid_center_dish",
+      "child": "/Asset/Links/rf_service_cable",
+      "type": "fixed",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "lower": 0.0,
+      "upper": 0.0
+    }
+  ],
+  "moving_joint_count": 4,
+  "floating": [
+    {
+      "body": "/Asset/Links/spacecraft_mounting_pedestal",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": 1.7500000005960463
+    }
+  ],
+  "appearance": {
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/spacecraft_bolt_flange/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/pedestal_column/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/azimuth_bearing_cup/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_01/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_02/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_03/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_04/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_05/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_06/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_07/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/mounting_bolt_08/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/pedestal_gusset_left/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/spacecraft_mounting_pedestal/Visuals/pedestal_gusset_right/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/azimuth_rotor/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/yoke_crossbeam/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/left_yoke_cheek/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/left_elevation_bearing/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/right_yoke_cheek/Geom": {
+      "name": "white_thermal_coating",
+      "color": [
+        0.6738595366477966,
+        0.7105664610862732,
+        0.6382831931114197
+      ],
+      "opacity": 1.0,
+      "roughness": 0.47999998927116394,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/right_elevation_bearing/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/azimuth_yoke/Visuals/elevation_hard_stop/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/center_reflector_shell/Geom/mesh": {
+      "name": "aluminum_reflector",
+      "color": [
+        0.47699978947639465,
+        0.5225215554237366,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/elevation_trunnion/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/center_back_rib_lower/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/center_back_rib_upper/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_center_hinge_knuckle_low/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_center_hinge_knuckle_high/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_petal_deployed_hard_stop/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_hard_stop_support_rod/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_launch_restraint_latch/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_launch_latch_support/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/left_cable_routing_bracket/Geom": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_center_hinge_knuckle_low/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_center_hinge_knuckle_high/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_petal_deployed_hard_stop/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_hard_stop_support_rod/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_launch_restraint_latch/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_launch_latch_support/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rigid_center_dish/Visuals/right_cable_routing_bracket/Geom": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_reflector_petal/Visuals/left_petal_shell/Geom/mesh": {
+      "name": "aluminum_reflector",
+      "color": [
+        0.47699978947639465,
+        0.5225215554237366,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_reflector_petal/Visuals/left_locking_hinge_housing/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_reflector_petal/Visuals/left_hard_stop_tab/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_reflector_petal/Visuals/left_hard_stop_lock_rod/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/left_reflector_petal/Visuals/left_launch_latch_receiver/Geom": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_reflector_petal/Visuals/right_petal_shell/Geom/mesh": {
+      "name": "aluminum_reflector",
+      "color": [
+        0.47699978947639465,
+        0.5225215554237366,
+        0.5382355451583862
+      ],
+      "opacity": 1.0,
+      "roughness": 0.23999999463558197,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_reflector_petal/Visuals/right_locking_hinge_housing/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_reflector_petal/Visuals/right_hard_stop_tab/Geom": {
+      "name": "launch_restraint_red",
+      "color": [
+        0.3931231200695038,
+        0.0027089782524853945,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.3799999952316284,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_reflector_petal/Visuals/right_hard_stop_lock_rod/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/right_reflector_petal/Visuals/right_launch_latch_receiver/Geom": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_support_strut_1/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_support_strut_2/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_support_strut_3/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_support_strut_4/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_waveguide/Geom": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/central_feed_horn/Geom/mesh": {
+      "name": "gold_rf_hardware",
+      "color": [
+        0.6382831931114197,
+        0.2632734179496765,
+        0.0134117491543293
+      ],
+      "opacity": 1.0,
+      "roughness": 0.2199999988079071,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_horn_mounting_collar/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_backframe_mount/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/central_feed_and_struts/Visuals/feed_backframe_crossbar/Geom": {
+      "name": "black_spacecraft_structure",
+      "color": [
+        0.004400849808007479,
+        0.005422868765890598,
+        0.006213310174643993
+      ],
+      "opacity": 1.0,
+      "roughness": 0.41999998688697815,
+      "ior": 1.45
+    },
+    "/Asset/Links/rf_service_cable/Visuals/rf_service_cable_rest_shape/Geom/mesh": {
+      "name": "cable_jacket",
+      "color": [
+        0.0013931888388469815,
+        0.001702786423265934,
+        0.001934984466060996
+      ],
+      "opacity": 1.0,
+      "roughness": 0.7599999904632568,
+      "ior": 1.45
+    }
+  }
+}
